@@ -22,13 +22,36 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: "stylesheet",
+        href:
+          "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      },
+      {
+        rel: "stylesheet",
+        href:
+          "https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic"
+      },
+      {
+        rel: "stylesheet",
+        href:
+          "https://fonts.googleapis.com/css?family=Playball"
+      }
     ]
   },
   /*
   ** Global CSS
   */
   css: [
+    '@static/css/animate.css',
+    '@static/css/animate.min.css',
+    '@static/css/bootstrap.css',
+    '@static/css/bootstrap-theme.css',
+    '@static/css/bootstrap-theme.min.css',
+    '@static/css/font-awesome.css',
+    '@static/css/font-awesome.min.css',
+    '@static/css/style.css'
   ],
   /*
   ** Plugins to load before mounting the App
@@ -58,5 +81,6 @@ export default {
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
+
   }
 }
