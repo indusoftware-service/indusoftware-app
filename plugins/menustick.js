@@ -57,9 +57,7 @@ function($) {
 	  			} else {
 	  				topMargin = 0;
 	  			}
-				console.log('salida:'+itemClass+' '+$('.'+itemClass));
-
-				menuSize = $('.'+itemClass).length;
+	  			menuSize = $('.'+itemClass).size();
   			}			
 			stickyHeight = parseInt($(this).height());
 			stickyMarginB = parseInt($(this).css('margin-bottom'));

@@ -1,4 +1,4 @@
-
+import webpack from 'webpack'
 export default {
   /*
   ** Nuxt rendering mode
@@ -21,6 +21,10 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
+    script: [
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js' },
+      { src: '/js/menustick.js' }
+    ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
@@ -40,6 +44,23 @@ export default {
       }
     ]
   },
+  script: [
+    {src:'js/menustick.js'},
+    { src: 'js/jquery.js' },
+    { src: 'js/modernizr.js' },
+    { src: 'js/bootstrap.min.js' },
+    { src: 'js/parallax.js' },
+    { src: 'js/easing.js' },
+    { src: 'js/wow.js' },
+    { src: 'js/smoothscroll.js' },
+    { src: 'js/masonry.js' },
+    { src: 'js/imgloaded.js' },
+    { src: 'js/classie.js' },
+    { src: 'js/gridscroll.js' },
+    { src: 'js/contact.js' },
+    { src: 'js/common.js' },
+    { src: 'js/main.js'},
+  ],
   /*
   ** Global CSS
   */
@@ -81,6 +102,5 @@ export default {
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
-
   }
 }

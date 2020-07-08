@@ -230,6 +230,298 @@
           </div>
       </div>
     </section>
+    <!--portfolio-->
+    <section class="gallery" id="gallery">
+      <div class="container">
+        <div class="heading text-center">
+          <h2>Portfolio</h2>
+          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis dolor sit amet lacus ultricies rutrum. Curabitur vitae fringilla elit. Sed at nunc congue, cursus erat ac, pellentesque eros. Etiam ullamcorper sed lectus sit amet mattis.</h3>
+        </div>
+
+        <div id="grid-gallery" class="grid-gallery">
+          <section class="grid-wrap">
+            <ul class="grid">
+              <li class="grid-sizer"></li>
+              <!-- for Masonry column width -->
+              <li>
+                <figure>
+                  <img src="img/work/1.jpg" alt="" />
+                  <figcaption>
+                    <h3>Vitae fringilla elit</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                  </figcaption>
+                </figure>
+              </li>
+              <li>
+                <figure>
+                  <img src="img/work/2.jpg" alt="" />
+                  <figcaption>
+                    <h3>Vitae fringilla elit</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                  </figcaption>
+                </figure>
+              </li>
+              <li>
+                <figure>
+                  <img src="img/work/3.jpg" alt="" />
+                  <figcaption>
+                    <h3>Vitae fringilla elit</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                  </figcaption>
+                </figure>
+              </li>
+              <li>
+                <figure>
+                  <img src="img/work/4.jpg" alt="" />
+                  <figcaption>
+                    <h3>Vitae fringilla elit</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                  </figcaption>
+                </figure>
+              </li>
+              <li>
+                <figure>
+                  <img src="img/work/5.jpg" alt="" />
+                  <figcaption>
+                    <h3>Vitae fringilla elit</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                  </figcaption>
+                </figure>
+              </li>
+              <li>
+                <figure>
+                  <img src="img/work/6.jpg" alt="" />
+                  <figcaption>
+                    <h3>Vitae fringilla elit</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                  </figcaption>
+                </figure>
+              </li>
+
+              <li>
+                <figure>
+                  <img src="img/work/7.jpg" alt="" />
+                  <figcaption>
+                    <h3>Vitae fringilla elit</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                  </figcaption>
+                </figure>
+              </li>
+
+              <li>
+                <figure>
+                  <img src="img/work/8.jpg" alt="" />
+                  <figcaption>
+                    <h3>Vitae fringilla elit</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                  </figcaption>
+                </figure>
+              </li>
+
+            </ul>
+          </section>
+          <!-- // end small images -->
+
+          <section class="slideshow">
+            <ul>
+              <li>
+                <figure>
+                  <img src="img/work/1.jpg" alt="" />
+                </figure>
+              </li>
+              <li>
+                <figure>
+                  <img src="img/work/2.jpg" alt="" />
+                </figure>
+              </li>
+              <li>
+                <figure>
+                  <img src="img/work/3.jpg" alt="" />
+                </figure>
+              </li>
+              <li>
+                <figure>
+                  <img src="img/work/4.jpg" alt="" />
+                </figure>
+              </li>
+              <li>
+                <figure>
+                  <img src="img/work/5.jpg" alt="" />
+                </figure>
+              </li>
+              <li>
+                <figure>
+                  <img src="img/work/6.jpg" alt="" />
+                </figure>
+              </li>
+
+              <li>
+                <figure>
+                  <img src="img/work/7.jpg" alt="" />
+                </figure>
+              </li>
+
+              <li>
+                <figure>
+                  <img src="img/work/8.jpg" alt="" />
+                </figure>
+              </li>
+            </ul>
+            <nav>
+              <span class="icon nav-prev"></span>
+              <span class="icon nav-next"></span>
+              <span class="icon nav-close"></span>
+            </nav>
+            <div class="info-keys icon">Navigate with arrow keys</div>
+          </section>
+          <!-- // end slideshow -->
+        </div>
+        <!-- // grid-gallery -->
+      </div>
+    </section>
+    <!--education-->
+    <section class="feedback" id="feedback">
+      <div class="container">
+        <div class="heading">
+          <h2>Education</h2>
+          <h3>Phasellus non dolor nibh. Nullam elementum tellus pretium feugi</h3>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="col-md-4 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s">
+          <div class="text-center">
+            <div class="hi-icon-wrap hi-icon-effect">
+              <h4>MASTER OF COMPUTER SCIENCE</h4>
+              <h5>FEB 2012 - DEC 2014</h5>
+              <i class="fa fa-laptop"></i>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.6s">
+          <div class="text-center">
+            <div class="hi-icon-wrap hi-icon-effect">
+              <h4>MASTER OF COMPUTER SCIENCE</h4>
+              <h5>FEB 2012 - DEC 2014</h5>
+              <i class="fa fa-book"></i>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.9s">
+          <div class="text-center">
+            <div class="hi-icon-wrap hi-icon-effect">
+              <h4>MASTER OF COMPUTER SCIENCE</h4>
+              <h5>FEB 2012 - DEC 2014</h5>
+              <i class="fa fa-gear"></i>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <blockquote>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages." <cite>Jogn De, Programming<br/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></cite>            </blockquote>
+          <blockquote>Have you ever felt worried that your party will not raise up to your guest expectations? In design, vertical rhythm is the structure that guides a reader’s eye through the content. Good vertical rhythm makes a layout more balanced and beautiful
+            and its content more readable. The time signature in sheet music visually depicts a song’s rhythm, while for us, the lines of the baseline grid depict the rhythm of our content and give us guidelines. <cite>Marta Kay, Business Development<br/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></cite>            </blockquote>
+        </div>
+      </div>
+    </section>
+    <!--education-->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="heading">
+          <h2>Contact</h2>
+          <h3>Phasellus non dolor nibh. Nullam elementum tellus pretium feugiat</h3>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <div class="map">
+              <div id="google-map" data-latitude="40.713732" data-longitude="-74.0092704"></div>
+            </div>
+          </div>
+
+          <div class="contact-info">
+            <div class="col-md-5">
+              <h4>My Contact Info</h4>
+              <h5>Nullam elementum tellus pretium feugiat</h5>
+              <p>Fusce fermen tum neque a rutrum varius odio pede ullamcorp-er tellus ut dignissim nisi risus non tortor</p>
+              <ul>
+                <li><i class="fa fa-home fa-2x"></i> Home # 38, Suite 54 Elizebth Street</li>
+                <li><i class="fa fa-phone fa-2x"></i> +38 000 129900</li>
+                <li><i class="fa fa-envelope fa-2x"></i> info@domain.net</li>
+                <li><i class="fa fa-download fa-2x"></i> Download My Resume</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <div id="sendmessage">Your message has been sent. Thank you!</div>
+            <div id="errormessage"></div>
+            <form action="" method="post" role="form" class="contactForm">
+              <div class="form-group">
+                <input
+                  type="text"
+                  name="name"
+                  class="form-control"
+                  id="name"
+                  placeholder="Your Name"
+                  data-rule="minlen:4"
+                  data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  name="email"
+                  id="email"
+                  placeholder="Your Email"
+                  data-rule="email"
+                  data-msg="Please enter a valid email" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  name="subject"
+                  id="subject"
+                  placeholder="Subject"
+                  data-rule="minlen:4"
+                  data-msg="Please enter at least 8 chars of subject" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <textarea
+                  class="form-control"
+                  name="message"
+                  rows="5"
+                  data-rule="required"
+                  data-msg="Please write something for us"
+                  placeholder="Message">
+                </textarea>
+                <div class="validation"></div>
+              </div>
+
+              <div class="text-center"><button type="submit" class="contact submit">Send Message</button></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!--footer-->
     <section class="footer" id="footer">
@@ -250,23 +542,21 @@
 </template>
 <script>
 export default {
-  head: {
-    script: [
-      { src: 'js/jquery.js' },
-      { src: 'js/modernizr.js' },
-      { src: 'js/bootstrap.min.js' },
-      { src: 'js/menustick.js' },
-      { src: 'js/parallax.js' },
-      { src: 'js/easing.js' },
-      { src: 'js/wow.js' },
-      { src: 'js/smoothscroll.js' },
-      { src: 'js/masonry.js' },
-      { src: 'js/imgloaded.js' },
-      { src: 'js/classie.js' },
-      { src: 'js/gridscroll.js' },
-      { src: 'js/contact.js' },
-      { src: 'js/common.js' }
-    ]
+  mounted () {
+    console.log('listo')
+    window.jQuery('.navbar-wrapper').stickUp({
+      parts: {
+        0: 'banner',
+        1: 'aboutus',
+        2: 'specialties',
+        3: 'gallery',
+        4: 'feedback',
+        5: 'contact'
+      },
+      itemClass: 'menuItem',
+      itemHover: 'active',
+      topMargin: 'auto'
+    })
   }
 }
 </script>
