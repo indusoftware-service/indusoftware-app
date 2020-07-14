@@ -1,562 +1,369 @@
 <template>
-  <div class="wrapper" id="wrapper">
-    <header>
-      <div class="banner row" id="banner">
-        <div class="parallax text-center" style="background-image: url(img/chicos.jpg);">
-          <div class="parallax-pattern-overlay">
-            <div class="container text-center" style="height:600px;padding-top:170px;">
-              <a href="#">
-                <img id="site-title" class=" wow fadeInDown" wow-data-delay="0.0s" wow-data-duration="0.9s" src="img/2.png" />
-              </a>
-              <h2 class="intro"><a href="index.html">Indusoftware</a></h2>
+  <div id="fh5co-wrapper">
+    <div id="fh5co-page">
+      <!-- Hader -->
+      <div id="fh5co-header">
+        <header id="fh5co-header-section">
+          <div class="container">
+            <div class="nav-header">
+              <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+              <h1 id="fh5co-logo"><a href="index.html">Indusoftware</a></h1>
             </div>
+          </div>
+        </header>
+      </div>
+      <div class="fh5co-hero">
+        <div class="fh5co-overlay"></div>
+        <div class="fh5co-cover text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/chicos.jpg);">
+          <div class="desc animate-box">
+            <h2>Indusoftware <strong>Creative Teams</strong></h2>
+            <span><a class="btn btn-primary btn-lg" href="#">Get Started</a></span>
           </div>
         </div>
       </div>
-      <div class="menu">
-        <div class="navbar-wrapper">
-          <div class="container">
-            <div class="navwrapper">
-              <div class="navbar navbar-inverse navbar-static-top">
-                <div class="container">
-                  <div class="navArea">
-                    <div class="navbar-collapse collapse">
-                      <ul class="nav navbar-nav">
-                        <li class="menuItem active"><a href="#wrapper">Home</a></li>
-                        <li class="menuItem"><a href="#aboutus">About Us</a></li>
-                        <li class="menuItem"><a href="#specialties">Skills</a></li>
-                        <li class="menuItem"><a href="#gallery">Portfolio</a></li>
-                        <li class="menuItem"><a href="#feedback">Education</a></li>
-                        <li class="menuItem"><a href="#contact">Contact</a></li>
-                      </ul>
-                    </div>
-                  </div>
+      <!-- Features -->
+      <div id="fh5co-features">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="feature-left">
+                <span class="icon">
+                  <i class="icon-search"></i>
+                </span>
+                <div class="feature-copy">
+                  <h3>SEO</h3>
+                  <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="feature-left">
+                <span class="icon">
+                  <i class="icon-mobile"></i>
+                </span>
+                <div class="feature-copy">
+                  <h3>Mobile Apps</h3>
+                  <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="feature-left">
+                <span class="icon">
+                  <i class="icon-video"></i>
+                </span>
+                <div class="feature-copy">
+                  <h3>Art Direction</h3>
+                  <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </header>
-
-    <!--about us-->
-    <section class="aboutus" id="aboutus">
-      <div class="container">
-        <div class="heading text-center">
-          <h2>About Me</h2>
-          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis dolor sit amet lacus ultricies rutrum. Curabitur vitae fringilla elit. Sed at nunc congue, cursus erat ac, pellentesque eros. Etiam ullamcorper sed lectus sit amet mattis. Morbi justo sem, cursus nec convallis a, pellentesque eu mi. Morbi hendrerit ultricies ligula </h3>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="papers text-center">
-              <img src="img/team/1.jpg" alt=""><br/>
-              <a href="#"><b>Download my resume</b></a>
-              <h4 class="">My Teacher John Vandeley</h4>
-              <p>
-                Have you ever felt worried that your party will not raise up to your guest expectations? In design, vertical rhythm is the structure that guides a reader's eye through the content. Good vertical rhythm makes a layout more balanced and beautiful and its
-                content more readable. The time signature in sheet music visually depicts a song's rhythm, while for us, the lines of the baseline grid depict the rhythm of our content and give us guidelines.
-              </p>
+      <!-- Features product -->
+      <div id="fh5co-feature-product" class="fh5co-section-gray">
+        <div class="container">
+          <div class="row row-bottom-padded-md">
+            <div class="col-md-12 text-center heading-section">
+              <h3>Grab this free template now.</h3>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            </div>
+            <div class="col-md-12 text-center">
+              <p><a href="http://freehtml5.co/" class="btn btn-primary btn-lg">Download me please</a></p>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="papers text-center">
-              <img src="img/team/2.jpg" alt=""><br/>
-              <a href="#"><b>Download my resume</b></a>
-              <h4 class="">My Teacher Stephanie Hellen</h4>
-              <p>
-                Have you ever felt worried that your party will not raise up to your guest expectations? In design, vertical rhythm is the structure that guides a reader's eye through the content. Good vertical rhythm makes a layout more balanced and beautiful and its
-                content more readable. The time signature in sheet music visually depicts a song's rhythm, while for us, the lines of the baseline grid depict the rhythm of our content and give us guidelines.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--skills-->
-    <section class="specialties" id="specialties">
-      <div class="container">
-          <div class="heading text-center">
-            <h2>Our Skills</h2>
-            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis dolor sit amet lacus ultricies rutrum. Curabitur vitae fringilla elit. Sed at nunc congue, cursus erat ac, pellentesque eros. Etiam ullamcorper sed lectus sit amet mattis. Morbi justo sem, cursus nec convallis a, pellentesque eu mi. Morbi hendrerit ultricies ligula </h3>
-          </div>
-      </div>
-      <div class="container">
           <div class="row">
-            <div class="col-md-6 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s">
-                <div class="skill ">
-                  <div class="progress-wrap">
-                      <h3>Graphic Design</h3>
-                      <div class="progress ">
-                        <div
-                          class="progress-bar color1 "
-                          role="progressbar "
-                          aria-valuenow="40 "
-                          aria-valuemin="0 "
-                          aria-valuemax="100 "
-                          style="width: 85%">
-                            <span class="bar-width ">85%</span>
-                        </div>
-                      </div>
-                  </div>
-                  <div class="progress-wrap ">
-                      <h3>HTML</h3>
-                      <div class="progress ">
-                        <div
-                          class="progress-bar color2 "
-                          role="progressbar "
-                          aria-valuenow="20 "
-                          aria-valuemin="0 "
-                          aria-valuemax="100 "
-                          style="width: 95% ">
-                            <span class="bar-width ">95%</span>
-                        </div>
-                      </div>
-                  </div>
-                  <div class="progress-wrap ">
-                      <h3>CSS</h3>
-                      <div class="progress ">
-                        <div
-                          class="progress-bar color3 "
-                          role="progressbar "
-                          aria-valuenow="60 "
-                          aria-valuemin="0 "
-                          aria-valuemax="100 "
-                          style="width: 80% ">
-                            <span class="bar-width ">80%</span>
-                        </div>
-                      </div>
-                  </div>
-                  <div class="progress-wrap ">
-                      <h3>Wordpress</h3>
-                      <div class="progress ">
-                        <div
-                          class="progress-bar color4"
-                          role="progressbar "
-                          aria-valuenow="80 "
-                          aria-valuemin="0 "
-                          aria-valuemax="100 "
-                          style="width: 90% ">
-                            <span class="bar-width ">90%</span>
-                        </div>
-                      </div>
-                  </div>
-                </div>
-            </div>
-            <div class="col-md-6 wow fadeInRight " data-wow-offset="0" data-wow-delay="0.6s">
-                <img src="img/team/6.jpg" class="img-responsive">
+            <div class="col-md-12 text-center animate-box">
+              <p><img src="images/macbook2.png" alt="Free HTML5 Bootstrap Template" class="img-responsive"></p>
             </div>
           </div>
-      </div>
-      <div class="container">
           <div class="row">
             <div class="col-md-4">
-                <div class="skills">
-                  <h3 class="main text-center">WEB DESIGN</h3>
-                  <div class="restitem clearfix">
-                      <div class="rm-thumb" style="background-image: url(img/2.png)">
-                      </div>
-                      <h5>HTML</h5>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis dolor sit amet lacus ultricies rutrum. Curabitur vitae fringilla elit. Sed at nunc congue, cursus erat ac, pellentesque eros.
-                      </p>
-                  </div>
-                  <div class="restitem clearfix">
-                      <div class="rm-thumb" style="background-image: url(img/2.png)">
-                      </div>
-                      <h5>CSS</h5>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis dolor sit amet lacus ultricies rutrum. Curabitur vitae fringilla elit. Sed at nunc congue, cursus erat ac, pellentesque eros.
-                      </p>
-                  </div>
-                  <div class="restitem clearfix">
-                      <div class="rm-thumb" style="background-image: url(img/2.png)">
-                      </div>
-                      <h5>JAVASCRIPT</h5>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis dolor sit amet lacus ultricies rutrum. Curabitur vitae fringilla elit. Sed at nunc congue, cursus erat ac, pellentesque eros.
-                      </p>
-                  </div>
-                </div>
+              <div class="feature-text">
+                <h3><span class="number">01.</span> Smart</h3>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              </div>
             </div>
             <div class="col-md-4">
-                <div class="skills">
-                  <h3 class="main text-center">PHOTOGRAPHY</h3>
-                  <div class="restitem clearfix">
-                      <div class="rm-thumb" style="background-image: url(img/2.png)">
-                      </div>
-                      <h5>adipiscing elit</h5>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis dolor sit amet lacus ultricies rutrum. Curabitur vitae fringilla elit. Sed at nunc congue, cursus erat ac, pellentesque eros.
-                      </p>
-                  </div>
-                  <div class="restitem clearfix">
-                      <div class="rm-thumb" style="background-image: url(img/2.png)">
-                      </div>
-                      <h5>adipiscing elit</h5>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis dolor sit amet lacus ultricies rutrum. Curabitur vitae fringilla elit. Sed at nunc congue, cursus erat ac, pellentesque eros.
-                      </p>
-                  </div>
-                  <div class="restitem clearfix">
-                      <div class="rm-thumb" style="background-image: url(img/2.png)">
-                      </div>
-                      <h5>adipiscing elit</h5>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis dolor sit amet lacus ultricies rutrum. Curabitur vitae fringilla elit. Sed at nunc congue, cursus erat ac, pellentesque eros.
-                      </p>
-                  </div>
-                </div>
+              <div class="feature-text">
+                <h3><span class="number">02.</span> Intuitive</h3>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              </div>
             </div>
             <div class="col-md-4">
-                <div class="skills">
-                  <h3 class="main text-center">PROGRAMMING</h3>
-                  <div class="restitem clearfix">
-                      <div class="rm-thumb" style="background-image: url(img/2.png)">
-                      </div>
-                      <h5>adipiscing elit</h5>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis dolor sit amet lacus ultricies rutrum. Curabitur vitae fringilla elit. Sed at nunc congue, cursus erat ac, pellentesque eros.
-                      </p>
-                  </div>
-                  <div class="restitem clearfix">
-                      <div class="rm-thumb" style="background-image: url(img/2.png)">
-                      </div>
-                      <h5>adipiscing elit</h5>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis dolor sit amet lacus ultricies rutrum. Curabitur vitae fringilla elit. Sed at nunc congue, cursus erat ac, pellentesque eros.
-                      </p>
-                  </div>
-                  <div class="restitem clearfix">
-                      <div class="rm-thumb" style="background-image: url(img/2.png)">
-                      </div>
-                      <h5>adipiscing elit</h5>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis dolor sit amet lacus ultricies rutrum. Curabitur vitae fringilla elit. Sed at nunc congue, cursus erat ac, pellentesque eros.
-                      </p>
-                  </div>
-                </div>
-            </div>
-          </div>
-      </div>
-    </section>
-    <!--portfolio-->
-    <section class="gallery" id="gallery">
-      <div class="container">
-        <div class="heading text-center">
-          <h2>Portfolio</h2>
-          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis dolor sit amet lacus ultricies rutrum. Curabitur vitae fringilla elit. Sed at nunc congue, cursus erat ac, pellentesque eros. Etiam ullamcorper sed lectus sit amet mattis.</h3>
-        </div>
-
-        <div id="grid-gallery" class="grid-gallery">
-          <section class="grid-wrap">
-            <ul class="grid">
-              <li class="grid-sizer"></li>
-              <!-- for Masonry column width -->
-              <li>
-                <figure>
-                  <img src="img/work/1.jpg" alt="" />
-                  <figcaption>
-                    <h3>Vitae fringilla elit</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                  </figcaption>
-                </figure>
-              </li>
-              <li>
-                <figure>
-                  <img src="img/work/2.jpg" alt="" />
-                  <figcaption>
-                    <h3>Vitae fringilla elit</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                  </figcaption>
-                </figure>
-              </li>
-              <li>
-                <figure>
-                  <img src="img/work/3.jpg" alt="" />
-                  <figcaption>
-                    <h3>Vitae fringilla elit</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                  </figcaption>
-                </figure>
-              </li>
-              <li>
-                <figure>
-                  <img src="img/work/4.jpg" alt="" />
-                  <figcaption>
-                    <h3>Vitae fringilla elit</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                  </figcaption>
-                </figure>
-              </li>
-              <li>
-                <figure>
-                  <img src="img/work/5.jpg" alt="" />
-                  <figcaption>
-                    <h3>Vitae fringilla elit</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                  </figcaption>
-                </figure>
-              </li>
-              <li>
-                <figure>
-                  <img src="img/work/6.jpg" alt="" />
-                  <figcaption>
-                    <h3>Vitae fringilla elit</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                  </figcaption>
-                </figure>
-              </li>
-
-              <li>
-                <figure>
-                  <img src="img/work/7.jpg" alt="" />
-                  <figcaption>
-                    <h3>Vitae fringilla elit</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                  </figcaption>
-                </figure>
-              </li>
-
-              <li>
-                <figure>
-                  <img src="img/work/8.jpg" alt="" />
-                  <figcaption>
-                    <h3>Vitae fringilla elit</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                  </figcaption>
-                </figure>
-              </li>
-
-            </ul>
-          </section>
-          <!-- // end small images -->
-
-          <section class="slideshow">
-            <ul>
-              <li>
-                <figure>
-                  <img src="img/work/1.jpg" alt="" />
-                </figure>
-              </li>
-              <li>
-                <figure>
-                  <img src="img/work/2.jpg" alt="" />
-                </figure>
-              </li>
-              <li>
-                <figure>
-                  <img src="img/work/3.jpg" alt="" />
-                </figure>
-              </li>
-              <li>
-                <figure>
-                  <img src="img/work/4.jpg" alt="" />
-                </figure>
-              </li>
-              <li>
-                <figure>
-                  <img src="img/work/5.jpg" alt="" />
-                </figure>
-              </li>
-              <li>
-                <figure>
-                  <img src="img/work/6.jpg" alt="" />
-                </figure>
-              </li>
-
-              <li>
-                <figure>
-                  <img src="img/work/7.jpg" alt="" />
-                </figure>
-              </li>
-
-              <li>
-                <figure>
-                  <img src="img/work/8.jpg" alt="" />
-                </figure>
-              </li>
-            </ul>
-            <nav>
-              <span class="icon nav-prev"></span>
-              <span class="icon nav-next"></span>
-              <span class="icon nav-close"></span>
-            </nav>
-            <div class="info-keys icon">Navigate with arrow keys</div>
-          </section>
-          <!-- // end slideshow -->
-        </div>
-        <!-- // grid-gallery -->
-      </div>
-    </section>
-    <!--education-->
-    <section class="feedback" id="feedback">
-      <div class="container">
-        <div class="heading">
-          <h2>Education</h2>
-          <h3>Phasellus non dolor nibh. Nullam elementum tellus pretium feugi</h3>
-        </div>
-      </div>
-
-      <div class="container">
-        <div class="col-md-4 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s">
-          <div class="text-center">
-            <div class="hi-icon-wrap hi-icon-effect">
-              <h4>MASTER OF COMPUTER SCIENCE</h4>
-              <h5>FEB 2012 - DEC 2014</h5>
-              <i class="fa fa-laptop"></i>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.6s">
-          <div class="text-center">
-            <div class="hi-icon-wrap hi-icon-effect">
-              <h4>MASTER OF COMPUTER SCIENCE</h4>
-              <h5>FEB 2012 - DEC 2014</h5>
-              <i class="fa fa-book"></i>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.9s">
-          <div class="text-center">
-            <div class="hi-icon-wrap hi-icon-effect">
-              <h4>MASTER OF COMPUTER SCIENCE</h4>
-              <h5>FEB 2012 - DEC 2014</h5>
-              <i class="fa fa-gear"></i>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+              <div class="feature-text">
+                <h3><span class="number">03.</span> Elegant</h3>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-
-      <div class="container">
-        <div class="row">
-          <blockquote>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages." <cite>Jogn De, Programming<br/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></cite>            </blockquote>
-          <blockquote>Have you ever felt worried that your party will not raise up to your guest expectations? In design, vertical rhythm is the structure that guides a reader’s eye through the content. Good vertical rhythm makes a layout more balanced and beautiful
-            and its content more readable. The time signature in sheet music visually depicts a song’s rhythm, while for us, the lines of the baseline grid depict the rhythm of our content and give us guidelines. <cite>Marta Kay, Business Development<br/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></cite>            </blockquote>
-        </div>
-      </div>
-    </section>
-    <!--education-->
-    <section class="contact" id="contact">
-      <div class="container">
-        <div class="heading">
-          <h2>Contact</h2>
-          <h3>Phasellus non dolor nibh. Nullam elementum tellus pretium feugiat</h3>
-        </div>
-      </div>
-
-      <div class="container">
-        <div class="row">
-          <div class="col-md-7">
-            <div class="map">
-              <div id="google-map" data-latitude="40.713732" data-longitude="-74.0092704"></div>
+      <!-- Portfolio -->
+      <div id="fh5co-portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3 text-center heading-section animate-box">
+              <h3>Recent Work</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit est facilis maiores, perspiciatis accusamus asperiores sint consequuntur debitis.</p>
             </div>
           </div>
-
-          <div class="contact-info">
-            <div class="col-md-5">
-              <h4>My Contact Info</h4>
-              <h5>Nullam elementum tellus pretium feugiat</h5>
-              <p>Fusce fermen tum neque a rutrum varius odio pede ullamcorp-er tellus ut dignissim nisi risus non tortor</p>
-              <ul>
-                <li><i class="fa fa-home fa-2x"></i> Home # 38, Suite 54 Elizebth Street</li>
-                <li><i class="fa fa-phone fa-2x"></i> +38 000 129900</li>
-                <li><i class="fa fa-envelope fa-2x"></i> info@domain.net</li>
-                <li><i class="fa fa-download fa-2x"></i> Download My Resume</li>
+          <div class="row row-bottom-padded-md">
+            <div class="col-md-12">
+              <ul id="fh5co-portfolio-list">
+                <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/work-5.jpg); ">
+                  <a href="#" class="color-3">
+                    <div class="case-studies-summary">
+                      <span>Illustration</span>
+                      <h2>Useful baskets</h2>
+                    </div>
+                  </a>
+                </li>
+                <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/work-6.jpg); ">
+                  <a href="#" class="color-4">
+                    <div class="case-studies-summary">
+                      <span>Web Design</span>
+                      <h2>Skater man in the road</h2>
+                    </div>
+                  </a>
+                </li>
+                <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/work-1.jpg); ">
+                  <a href="#" class="color-4">
+                    <div class="case-studies-summary">
+                      <span>Web Design</span>
+                      <h2>Two Glas of Juice</h2>
+                    </div>
+                  </a>
+                </li>
+                <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/work-2.jpg); ">
+                  <a href="#" class="color-5">
+                    <div class="case-studies-summary">
+                      <span>Web Design</span>
+                      <h2>Timer starts now!</h2>
+                    </div>
+                  </a>
+                </li>
+                <li class="two-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/work-3.jpg); ">
+                  <a href="#" class="color-6">
+                    <div class="case-studies-summary">
+                      <span>Illustration</span>
+                      <h2>Beautiful sunset</h2>
+                    </div>
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
-        </div>
-      </div>
-
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-md-offset-2">
-            <div id="sendmessage">Your message has been sent. Thank you!</div>
-            <div id="errormessage"></div>
-            <form action="" method="post" role="form" class="contactForm">
-              <div class="form-group">
-                <input
-                  type="text"
-                  name="name"
-                  class="form-control"
-                  id="name"
-                  placeholder="Your Name"
-                  data-rule="minlen:4"
-                  data-msg="Please enter at least 4 chars" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group">
-                <input
-                  type="email"
-                  class="form-control"
-                  name="email"
-                  id="email"
-                  placeholder="Your Email"
-                  data-rule="email"
-                  data-msg="Please enter a valid email" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group">
-                <input
-                  type="text"
-                  class="form-control"
-                  name="subject"
-                  id="subject"
-                  placeholder="Subject"
-                  data-rule="minlen:4"
-                  data-msg="Please enter at least 8 chars of subject" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group">
-                <textarea
-                  class="form-control"
-                  name="message"
-                  rows="5"
-                  data-rule="required"
-                  data-msg="Please write something for us"
-                  placeholder="Message">
-                </textarea>
-                <div class="validation"></div>
-              </div>
-
-              <div class="text-center"><button type="submit" class="contact submit">Send Message</button></div>
-            </form>
+          <div class="row">
+            <div class="col-md-4 col-md-offset-4 text-center animate-box">
+              <a href="#" class="btn btn-primary btn-lg">See All Our Works</a>
+            </div>
           </div>
         </div>
       </div>
-    </section>
-
-    <!--footer-->
-    <section class="footer" id="footer">
-      <p class="text-center">
-        <a href="#wrapper" class="gototop"><i class="fa fa-angle-double-up fa-2x"></i></a>
-      </p>
-      <div class="container">
-        <ul>
-          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-        </ul>
-        <p>&copy; 2020 Indusoftware. All Rights Reserved.</p>
+      <!-- Content Section -->
+      <div id="fh5co-content-section" class="fh5co-section-gray">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
+              <h3>What Others Say</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit est facilis maiores, perspiciatis accusamus asperiores sint consequuntur debitis.</p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="fh5co-testimonial text-center animate-box">
+                <figure>
+                  <img src="images/eric.jpg" alt="user">
+                </figure>
+                <blockquote>
+                  <p>“Creativity is just connecting things. When you ask creative people how they did something, they feel a little guilty because they didn’t really do it, they just saw something. It seemed obvious to them after a while.”</p>
+                </blockquote>
+                <span>Steve Jobs, Envision.</span>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="fh5co-testimonial text-center animate-box">
+                <figure>
+                  <img src="images/person_2.jpg" alt="user">
+                </figure>
+                <blockquote>
+                  <p>“Creativity is just connecting things. When you ask creative people how they did something, they feel a little guilty because they didn’t really do it, they just saw something. It seemed obvious to them after a while.”</p>
+                </blockquote>
+                <span>Steve Jobs, Apple Inc.</span>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="fh5co-testimonial text-center animate-box">
+                <figure>
+                  <img src="images/person_3.jpg" alt="user">
+                </figure>
+                <blockquote>
+                  <p>“Creativity is just connecting things. When you ask creative people how they did something, they feel a little guilty because they didn’t really do it, they just saw something. It seemed obvious to them after a while.”</p>
+                </blockquote>
+                <span>Steve Jobs, Mailchimp.</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </section>
+      <!-- Services Section -->
+      <div id="fh5co-services-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
+              <h3>What We Do</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit est facilis maiores, perspiciatis accusamus asperiores sint consequuntur debitis.</p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-md-4 col-sm-4">
+              <div class="services animate-box">
+                <span><i class="icon-browser"></i></span>
+                <h3>Web Development</h3>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+              <div class="services animate-box">
+                <span><i class="icon-mobile"></i></span>
+                <h3>Mobile Apps</h3>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+              <div class="services animate-box">
+                <span><i class="icon-tools"></i></span>
+                <h3>UX Design</h3>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+              <div class="services animate-box">
+                <span><i class="icon-video"></i></span>
+                <h3>Video Editing</h3>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+              <div class="services animate-box">
+                <span><i class="icon-search"></i></span>
+                <h3>SEO Ranking</h3>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+              <div class="services animate-box">
+                <span><i class="icon-cloud"></i></span>
+                <h3>Cloud Based Apps</h3>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Blog Section -->
+      <div id="fh5co-blog-section" class="fh5co-section-gray">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
+              <h3>Recent From Blog</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit est facilis maiores, perspiciatis accusamus asperiores sint consequuntur debitis.</p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row row-bottom-padded-md">
+            <div class="col-lg-4 col-md-4">
+              <div class="fh5co-blog animate-box">
+                <a href="#"><img class="img-responsive" src="images/blog-1.jpg" alt=""></a>
+                <div class="blog-text">
+                  <div class="prod-title">
+                    <h3><a href="#">45 Minimal Worksspace Rooms for Web Savvys</a></h3>
+                    <span class="posted_by">Sep. 15th</span>
+                    <span class="comment"><a href="">21<i class="icon-bubble2"></i></a></span>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+              <div class="fh5co-blog animate-box">
+                <a href="#"><img class="img-responsive" src="images/blog-2.jpg" alt=""></a>
+                <div class="blog-text">
+                  <div class="prod-title">
+                    <h3><a href="#">45 Minimal Worksspace Rooms for Web Savvys</a></h3>
+                    <span class="posted_by">Sep. 15th</span>
+                    <span class="comment"><a href="">21<i class="icon-bubble2"></i></a></span>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+              <div class="fh5co-blog animate-box">
+                <a href="#"><img class="img-responsive" src="images/blog-3.jpg" alt=""></a>
+                <div class="blog-text">
+                  <div class="prod-title">
+                    <h3><a href="#">45 Minimal Worksspace Rooms for Web Savvys</a></h3>
+                    <span class="posted_by">Sep. 15th</span>
+                    <span class="comment"><a href="">21<i class="icon-bubble2"></i></a></span>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 col-md-offset-4 text-center animate-box">
+              <a href="#" class="btn btn-primary btn-lg">Our Blog</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Footer -->
+      <footer>
+        <div id="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 col-md-offset-3 text-center">
+                <p class="fh5co-social-icons">
+                  <a href="#"><i class="icon-twitter2"></i></a>
+                  <a href="#"><i class="icon-facebook2"></i></a>
+                  <a href="#"><i class="icon-instagram"></i></a>
+                  <a href="#"><i class="icon-dribbble2"></i></a>
+                  <a href="#"><i class="icon-youtube"></i></a>
+                </p>
+                <p>Copyright 2020 <a href="#">Indusoftware</a>. All Rights Reserved. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
   </div>
 </template>
 <script>
 export default {
-  mounted () {
-    console.log('listo')
-    window.jQuery('.navbar-wrapper').stickUp({
-      parts: {
-        0: 'banner',
-        1: 'aboutus',
-        2: 'specialties',
-        3: 'gallery',
-        4: 'feedback',
-        5: 'contact'
-      },
-      itemClass: 'menuItem',
-      itemHover: 'active',
-      topMargin: 'auto'
-    })
+  head: {
+    script: [
+      { src: '/js/jquery.min.js' },
+      { src: '/js/jquery.easing.1.3.js' },
+      { src: '/js/bootstrap.min.js' },
+      { src: '/js/jquery.waypoints.min.js' },
+      { src: '/js/jquery.stellar.min.js' },
+      { src: '/js/hoverIntent.js' },
+      { src: '/js/superfish.js' },
+      { src: '/js/main.js' }
+    ]
   }
 }
 </script>

@@ -22,8 +22,7 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     script: [
-      { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js' },
-      { src: '/js/menustick.js' }
+      { src: '/js/modernizr-2.6.2.min.js' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -45,33 +44,23 @@ export default {
     ]
   },
   script: [
-    {src:'js/menustick.js'},
-    { src: 'js/jquery.js' },
-    { src: 'js/modernizr.js' },
-    { src: 'js/bootstrap.min.js' },
-    { src: 'js/parallax.js' },
-    { src: 'js/easing.js' },
-    { src: 'js/wow.js' },
-    { src: 'js/smoothscroll.js' },
-    { src: 'js/masonry.js' },
-    { src: 'js/imgloaded.js' },
-    { src: 'js/classie.js' },
-    { src: 'js/gridscroll.js' },
-    { src: 'js/contact.js' },
-    { src: 'js/common.js' },
-    { src: 'js/main.js'},
+    {src:'@static/js/jquery22.min.js'},
+    { src: '@static/js/jquery.easing.1.3.js' },
+    { src: '@static/js/bootstrap.min.js' },
+    { src: '@static/js/jquery.waypoints.min.js' },
+    { src: '@static/js/jquery.stellar.min.js' },
+    { src: '@static/js/hoverIntent.js' },
+    { src: '@static/js/superfish.js' },
+    { src: '@static/js/main.js' },
   ],
   /*
   ** Global CSS
   */
   css: [
     '@static/css/animate.css',
-    '@static/css/animate.min.css',
+    '@static/css/icomoon.css',
     '@static/css/bootstrap.css',
-    '@static/css/bootstrap-theme.css',
-    '@static/css/bootstrap-theme.min.css',
-    '@static/css/font-awesome.css',
-    '@static/css/font-awesome.min.css',
+    '@static/css/superfish.css',
     '@static/css/style.css'
   ],
   /*
