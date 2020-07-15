@@ -1,6 +1,20 @@
 <template>
   <div id="fh5co-wrapper">
     <div id="fh5co-page">
+      <div class="language-switcher">
+        <div class="languages-label">{{ $t('languaje') }}: </div>
+        <div class="languages">
+          <div
+            class="language"
+            v-for="el in locales"
+            :key="el.code"
+            :class="{ active: (el.code === locale) }"
+            @click="switchLanguage(el.code)"
+          >
+            <span>{{ el.name }}</span>
+          </div>
+        </div>
+      </div>
       <!-- Hader -->
       <div id="fh5co-header">
         <header id="fh5co-header-section">
@@ -17,7 +31,7 @@
         <div class="fh5co-cover text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/chicos.jpg);">
           <div class="desc animate-box">
             <h2>Indusoftware <strong>Creative Teams</strong></h2>
-            <span><a class="btn btn-primary btn-lg" href="#">Get Started</a></span>
+            <span><a class="btn btn-primary btn-lg" href="#">{{ $t('get_started') }}</a></span>
           </div>
         </div>
       </div>
@@ -66,7 +80,7 @@
         <div class="container">
           <div class="row row-bottom-padded-md">
             <div class="col-md-12 text-center heading-section">
-              <h3>Grab this free template now.</h3>
+              <h3>{{ $t('our_services') }}</h3>
               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
             </div>
             <div class="col-md-12 text-center">
@@ -81,20 +95,20 @@
           <div class="row">
             <div class="col-md-4">
               <div class="feature-text">
-                <h3><span class="number">01.</span> Smart</h3>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <h3><span class="number">01.</span> {{ $t('development_tit') }} </h3>
+                <p>{{ $t('development_body') }}</p>
               </div>
             </div>
             <div class="col-md-4">
               <div class="feature-text">
-                <h3><span class="number">02.</span> Intuitive</h3>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <h3><span class="number">02.</span> {{ $t('mobileapp_tit') }}</h3>
+                <p>{{ $t('mobileapp_body') }}</p>
               </div>
             </div>
             <div class="col-md-4">
               <div class="feature-text">
-                <h3><span class="number">03.</span> Elegant</h3>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <h3><span class="number">03.</span> {{ $t('api_tit') }}</h3>
+                <p>{{ $t('api_body') }}</p>
               </div>
             </div>
           </div>
@@ -364,6 +378,23 @@ export default {
       { src: '/js/superfish.js' },
       { src: '/js/main.js' }
     ]
+  },
+  computed: {
+    locales () { return this.$store.state.locales },
+    locale () { return this.$store.state.locale }
+  },
+  methods: {
+    switchLanguage (localeCode) {
+      console.log('Language: ' + localeCode)
+      this.$cookies.set('locale', localeCode, {
+        path: '/',
+        maxAge: 60 * 60 * 24 * 7
+      })
+      console.log('cookie: ' + this.$cookies.get('locale'))
+      location.reload()
+      //  document.cookie = `locale=${localeCode}`
+      //      this.$i18n.locale = localeCode
+    }
   }
 }
 </script>

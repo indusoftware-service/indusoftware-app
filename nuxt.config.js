@@ -68,6 +68,7 @@ export default {
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
+    { src: '~/plugins/i18n' },
   ],
   /*
   ** Auto import components
@@ -85,11 +86,16 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    ['cookie-universal-nuxt']
   ],
   /*
   ** Build configuration
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
+    vendor: ['vue-i18n'],
+  },
+  router: {
+    middleware: 'i18n'
   }
 }

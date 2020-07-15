@@ -1,0 +1,12 @@
+{
+  "get_started": "Comenzar",
+  "languaje": "español",
+  "our_services": "Nuestros Servicios",
+  "development_tit": "Desarrollo Web",
+  "mobileapp_tit": "Aplicaciones Moviles",
+  "api_tit": "API / BMP / SOA",
+  "development_body": "Tenemos una amplia experiencia en el análisis, diseño y desarrollo de plataformas web ya sea en infraestructuras on-premise así como también en la nube. Contamos con un equipo calificado de ingenieros capaces de enfrentar los desafíos que presentan la tecnologías en la construcción de soluciones a medida.",
+  "mobileapp_body": "El equipo de induApps se especializa en la creación de aplicaciones móviles para las tres plataformas más populares del mercado, utilizando metodologías de desarrollo ágiles y un lenguaje de programación híbrido que ahorra dinero y acelera los tiempos de salida al mercado para los clientes.",
+  "api_body": "El acceso a interfaces de programación de aplicaciones (API's), la gestión de procesos (BPM) y las arquitecturas orientadas a servicios (SOA) permiten que una organización agilice sus operaciones al automatizar, ejecutar, integrar y monitorear los procesos de negocios de principio a fin. En induSoftware ayudamos a los clientes a resolver sus desafíos en estos campos."
+
+}
