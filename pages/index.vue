@@ -1,27 +1,15 @@
 <template>
   <div id="fh5co-wrapper">
     <div id="fh5co-page">
-      <div class="language-switcher">
-        <div class="languages-label">{{ $t('languaje') }}: </div>
-        <div class="languages">
-          <div
-            class="language"
-            v-for="el in locales"
-            :key="el.code"
-            :class="{ active: (el.code === locale) }"
-            @click="switchLanguage(el.code)"
-          >
-            <span>{{ el.name }}</span>
-          </div>
-        </div>
-      </div>
       <!-- Hader -->
       <div id="fh5co-header">
         <header id="fh5co-header-section">
           <div class="container">
             <div class="nav-header">
               <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
-              <h1 id="fh5co-logo"><a href="index.html">Indusoftware</a></h1>
+              <h1 id="fh5co-logo"><a href="index.html">Indusoftware</a>
+                <span @click="switchLanguage('es')">ESP</span>|<span @click="switchLanguage('en')">ENG</span>
+              </h1>
             </div>
           </div>
         </header>
@@ -42,33 +30,33 @@
             <div class="col-md-4">
               <div class="feature-left">
                 <span class="icon">
-                  <i class="icon-search"></i>
+                  <i class="icon-lightbulb"></i>
                 </span>
                 <div class="feature-copy">
-                  <h3>SEO</h3>
-                  <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+                  <h3>{{ $t('mision_tit') }}</h3>
+                  <p>{{ $t('mision') }}</p>
                 </div>
               </div>
             </div>
             <div class="col-md-4">
               <div class="feature-left">
                 <span class="icon">
-                  <i class="icon-mobile"></i>
+                  <i class="icon-cogs"></i>
                 </span>
                 <div class="feature-copy">
-                  <h3>Mobile Apps</h3>
-                  <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+                  <h3>{{ $t('tecnologias_tit') }}</h3>
+                  <p>{{ $t('tecnologias') }}</p>
                 </div>
               </div>
             </div>
             <div class="col-md-4">
               <div class="feature-left">
                 <span class="icon">
-                  <i class="icon-video"></i>
+                  <i class="icon-trophy"></i>
                 </span>
                 <div class="feature-copy">
-                  <h3>Art Direction</h3>
-                  <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+                  <h3>{{ $t('porque_tit') }}</h3>
+                  <p>{{ $t('porque') }}</p>
                 </div>
               </div>
             </div>
@@ -81,15 +69,9 @@
           <div class="row row-bottom-padded-md">
             <div class="col-md-12 text-center heading-section">
               <h3>{{ $t('our_services') }}</h3>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
             </div>
-            <div class="col-md-12 text-center">
-              <p><a href="http://freehtml5.co/" class="btn btn-primary btn-lg">Download me please</a></p>
-            </div>
-          </div>
-          <div class="row">
             <div class="col-md-12 text-center animate-box">
-              <p><img src="images/macbook2.png" alt="Free HTML5 Bootstrap Template" class="img-responsive"></p>
+              <p><img src="images/monitor.jpg" alt="Free HTML5 Bootstrap Template" class="img-responsive"></p>
             </div>
           </div>
           <div class="row">
@@ -119,14 +101,13 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6 col-md-offset-3 text-center heading-section animate-box">
-              <h3>Recent Work</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit est facilis maiores, perspiciatis accusamus asperiores sint consequuntur debitis.</p>
+              <h3>{{ $t('clientes') }}</h3>
             </div>
           </div>
           <div class="row row-bottom-padded-md">
             <div class="col-md-12">
               <ul id="fh5co-portfolio-list">
-                <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/work-5.jpg); ">
+                <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/calico.jpg); ">
                   <a href="#" class="color-3">
                     <div class="case-studies-summary">
                       <span>Illustration</span>
@@ -134,7 +115,7 @@
                     </div>
                   </a>
                 </li>
-                <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/work-6.jpg); ">
+                <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/maritima.jpg); ">
                   <a href="#" class="color-4">
                     <div class="case-studies-summary">
                       <span>Web Design</span>
@@ -142,7 +123,7 @@
                     </div>
                   </a>
                 </li>
-                <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/work-1.jpg); ">
+                <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/bp4.jpg); ">
                   <a href="#" class="color-4">
                     <div class="case-studies-summary">
                       <span>Web Design</span>
@@ -150,7 +131,7 @@
                     </div>
                   </a>
                 </li>
-                <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/work-2.jpg); ">
+                <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/detechtus.jpg); ">
                   <a href="#" class="color-5">
                     <div class="case-studies-summary">
                       <span>Web Design</span>
@@ -158,7 +139,7 @@
                     </div>
                   </a>
                 </li>
-                <li class="two-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/work-3.jpg); ">
+                <li class="two-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/telecom.jpg); ">
                   <a href="#" class="color-6">
                     <div class="case-studies-summary">
                       <span>Illustration</span>
@@ -166,12 +147,32 @@
                     </div>
                   </a>
                 </li>
+                <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/fogaba.jpg); ">
+                  <a href="#" class="color-3">
+                    <div class="case-studies-summary">
+                      <span>Illustration</span>
+                      <h2>Useful baskets</h2>
+                    </div>
+                  </a>
+                </li>
+                <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/allianz.jpg); ">
+                  <a href="#" class="color-4">
+                    <div class="case-studies-summary">
+                      <span>Web Design</span>
+                      <h2>Skater man in the road</h2>
+                    </div>
+                  </a>
+                </li>
+                <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/vidatec.jpg); ">
+                  <a href="#" class="color-4">
+                    <div class="case-studies-summary">
+                      <span>Web Design</span>
+                      <h2>Two Glas of Juice</h2>
+                    </div>
+                  </a>
+                </li>
+
               </ul>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4 col-md-offset-4 text-center animate-box">
-              <a href="#" class="btn btn-primary btn-lg">See All Our Works</a>
             </div>
           </div>
         </div>
@@ -181,8 +182,8 @@
         <div class="container">
           <div class="row">
             <div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
-              <h3>What Others Say</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit est facilis maiores, perspiciatis accusamus asperiores sint consequuntur debitis.</p>
+              <h3>{{ $t('quienes_somos_tit') }}</h3>
+              <p>{{ $t('quienes_somos') }}</p>
             </div>
           </div>
         </div>
@@ -194,9 +195,9 @@
                   <img src="images/eric.jpg" alt="user">
                 </figure>
                 <blockquote>
-                  <p>“Creativity is just connecting things. When you ask creative people how they did something, they feel a little guilty because they didn’t really do it, they just saw something. It seemed obvious to them after a while.”</p>
+                  <p>{{ $t('ceo_text') }}</p>
                 </blockquote>
-                <span>Steve Jobs, Envision.</span>
+                <span>{{ $t('ceo') }}</span>
               </div>
             </div>
             <div class="col-md-4">
@@ -205,9 +206,9 @@
                   <img src="images/person_2.jpg" alt="user">
                 </figure>
                 <blockquote>
-                  <p>“Creativity is just connecting things. When you ask creative people how they did something, they feel a little guilty because they didn’t really do it, they just saw something. It seemed obvious to them after a while.”</p>
+                  <p>{{ $t('coo_text') }}</p>
                 </blockquote>
-                <span>Steve Jobs, Apple Inc.</span>
+                <span>{{ $t('coo') }}</span>
               </div>
             </div>
             <div class="col-md-4">
@@ -216,9 +217,9 @@
                   <img src="images/person_3.jpg" alt="user">
                 </figure>
                 <blockquote>
-                  <p>“Creativity is just connecting things. When you ask creative people how they did something, they feel a little guilty because they didn’t really do it, they just saw something. It seemed obvious to them after a while.”</p>
+                  <p>{{ $t('cto_text') }}</p>
                 </blockquote>
-                <span>Steve Jobs, Mailchimp.</span>
+                <span>{{ $t('cto') }}</span>
               </div>
             </div>
           </div>
@@ -229,8 +230,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
-              <h3>What We Do</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit est facilis maiores, perspiciatis accusamus asperiores sint consequuntur debitis.</p>
+              <h3>{{ $t('tecno') }}</h3>
             </div>
           </div>
         </div>
@@ -239,43 +239,36 @@
             <div class="col-md-4 col-sm-4">
               <div class="services animate-box">
                 <span><i class="icon-browser"></i></span>
-                <h3>Web Development</h3>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <h3>{{ $t('desarrollo') }}</h3>
+                <p>Java - Python - Grails - Microsoft.Net - Spring Boot</p>
               </div>
             </div>
             <div class="col-md-4 col-sm-4">
               <div class="services animate-box">
                 <span><i class="icon-mobile"></i></span>
-                <h3>Mobile Apps</h3>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <h3>{{ $t('desarrollo_web') }}</h3>
+                <p>React JS - Angular - Node Js- Html 5 - Bootstrap</p>
               </div>
             </div>
             <div class="col-md-4 col-sm-4">
               <div class="services animate-box">
                 <span><i class="icon-tools"></i></span>
-                <h3>UX Design</h3>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <h3>{{ $t('desarrollo_movil') }}</h3>
+                <p>Android - iOS - React Native - Ionic - Flutter - Otra cosa</p>
               </div>
             </div>
             <div class="col-md-4 col-sm-4">
               <div class="services animate-box">
                 <span><i class="icon-video"></i></span>
-                <h3>Video Editing</h3>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-4">
-              <div class="services animate-box">
-                <span><i class="icon-search"></i></span>
-                <h3>SEO Ranking</h3>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <h3>{{ $t('devops') }}</h3>
+                <p>Gloogle Cloud - aws - Azure - docker - Ansible - Kubernetes - git - Jenkins</p>
               </div>
             </div>
             <div class="col-md-4 col-sm-4">
               <div class="services animate-box">
                 <span><i class="icon-cloud"></i></span>
-                <h3>Cloud Based Apps</h3>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <h3>{{ $t('base_datos') }}</h3>
+                <p>Oracle - Sql Server - mongo DB - Postgress SQL - Firebase</p>
               </div>
             </div>
           </div>
@@ -286,60 +279,14 @@
         <div class="container">
           <div class="row">
             <div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
-              <h3>Recent From Blog</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit est facilis maiores, perspiciatis accusamus asperiores sint consequuntur debitis.</p>
+              <h3>{{ $t('equipo_tit') }}</h3>
+              <p>{{ $t('equipo_body') }}</p>
             </div>
           </div>
         </div>
         <div class="container">
-          <div class="row row-bottom-padded-md">
-            <div class="col-lg-4 col-md-4">
-              <div class="fh5co-blog animate-box">
-                <a href="#"><img class="img-responsive" src="images/blog-1.jpg" alt=""></a>
-                <div class="blog-text">
-                  <div class="prod-title">
-                    <h3><a href="#">45 Minimal Worksspace Rooms for Web Savvys</a></h3>
-                    <span class="posted_by">Sep. 15th</span>
-                    <span class="comment"><a href="">21<i class="icon-bubble2"></i></a></span>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <a href="#" class="btn btn-primary">Read More</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-4">
-              <div class="fh5co-blog animate-box">
-                <a href="#"><img class="img-responsive" src="images/blog-2.jpg" alt=""></a>
-                <div class="blog-text">
-                  <div class="prod-title">
-                    <h3><a href="#">45 Minimal Worksspace Rooms for Web Savvys</a></h3>
-                    <span class="posted_by">Sep. 15th</span>
-                    <span class="comment"><a href="">21<i class="icon-bubble2"></i></a></span>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <a href="#" class="btn btn-primary">Read More</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-4">
-              <div class="fh5co-blog animate-box">
-                <a href="#"><img class="img-responsive" src="images/blog-3.jpg" alt=""></a>
-                <div class="blog-text">
-                  <div class="prod-title">
-                    <h3><a href="#">45 Minimal Worksspace Rooms for Web Savvys</a></h3>
-                    <span class="posted_by">Sep. 15th</span>
-                    <span class="comment"><a href="">21<i class="icon-bubble2"></i></a></span>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <a href="#" class="btn btn-primary">Read More</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
           <div class="row">
-            <div class="col-md-4 col-md-offset-4 text-center animate-box">
-              <a href="#" class="btn btn-primary btn-lg">Our Blog</a>
-            </div>
+            <p><img src="images/equipo.jpg" class="img-responsive"></p>
           </div>
         </div>
       </div>
