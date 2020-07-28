@@ -8,7 +8,7 @@
             <div class="nav-header">
               <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
               <h1 id="fh5co-logo"><a href="index.html">Indusoftware</a>
-                <span @click="switchLanguage('es')">ESP</span>|<span @click="switchLanguage('en')">ENG</span>
+                <span style="cursor:pointer" @click="switchLanguage('es')">ESP</span>|<span style="cursor:pointer" @click="switchLanguage('en')">ENG</span>
               </h1>
             </div>
           </div>
@@ -19,7 +19,6 @@
         <div class="fh5co-cover text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/chicos.jpg);">
           <div class="desc animate-box">
             <h2>Indusoftware <strong>Creative Teams</strong></h2>
-            <span><a class="btn btn-primary btn-lg" href="#">{{ $t('get_started') }}</a></span>
           </div>
         </div>
       </div>
@@ -107,71 +106,70 @@
           <div class="row row-bottom-padded-md">
             <div class="col-md-12">
               <ul id="fh5co-portfolio-list">
-                <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/calico.jpg); ">
-                  <a href="#" class="color-3">
+                <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/calico.jpg); background-size: 300px 200px; ">
+                  <a href="https://www.calicosa.com.ar/" class="color-3">
                     <div class="case-studies-summary">
-                      <span>Illustration</span>
-                      <h2>Useful baskets</h2>
+                      <span>Calico</span>
+                      <h2>Logistica Integral</h2>
                     </div>
                   </a>
                 </li>
-                <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/maritima.jpg); ">
-                  <a href="#" class="color-4">
+                <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/maritima.jpg); background-size: 300px 200px; ">
+                  <a href="https://www.heinlein.com.ar/" class="color-4">
                     <div class="case-studies-summary">
-                      <span>Web Design</span>
-                      <h2>Skater man in the road</h2>
+                      <span>Maritima Heinlein</span>
+                      <h2>Shipagents-Chartering</h2>
                     </div>
                   </a>
                 </li>
-                <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/bp4.jpg); ">
-                  <a href="#" class="color-4">
+                <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/bp4.jpg); background-size: 300px 200px;">
+                  <a href="http://bp-4.com/" class="color-4">
                     <div class="case-studies-summary">
-                      <span>Web Design</span>
-                      <h2>Two Glas of Juice</h2>
+                      <span>bp4</span>
+                      <h2>Software factory</h2>
                     </div>
                   </a>
                 </li>
-                <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/detechtus.jpg); ">
+                <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/detechtus.jpg); background-size: 300px 200px; ">
                   <a href="#" class="color-5">
                     <div class="case-studies-summary">
-                      <span>Web Design</span>
+                      <span>Detechtus</span>
                       <h2>Timer starts now!</h2>
                     </div>
                   </a>
                 </li>
-                <li class="two-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/telecom.jpg); ">
+                <li class="two-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/telecom.jpg); background-size: 300px 200px; ">
                   <a href="#" class="color-6">
                     <div class="case-studies-summary">
-                      <span>Illustration</span>
+                      <span>Telecom</span>
                       <h2>Beautiful sunset</h2>
                     </div>
                   </a>
                 </li>
-                <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/fogaba.jpg); ">
+                <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/fogaba.jpg); background-size: 300px 200px; ">
                   <a href="#" class="color-3">
                     <div class="case-studies-summary">
-                      <span>Illustration</span>
+                      <span>Fogaba</span>
                       <h2>Useful baskets</h2>
                     </div>
                   </a>
                 </li>
-                <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/allianz.jpg); ">
+                <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/allianz.jpg); background-size: 300px 200px;">
                   <a href="#" class="color-4">
                     <div class="case-studies-summary">
-                      <span>Web Design</span>
+                      <span>Allianz</span>
                       <h2>Skater man in the road</h2>
                     </div>
                   </a>
                 </li>
-                <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/vidatec.jpg); ">
+                <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/vidatec.jpg); background-size: 300px 200px; ">
                   <a href="#" class="color-4">
                     <div class="case-studies-summary">
-                      <span>Web Design</span>
+                      <span>Vidatect</span>
                       <h2>Two Glas of Juice</h2>
                     </div>
                   </a>
                 </li>
-
               </ul>
             </div>
           </div>
