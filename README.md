@@ -1,4 +1,4 @@
-# indusoftware-app
+# tryApp
 
 ## Build Setup
 

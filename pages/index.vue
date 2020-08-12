@@ -1,349 +1,427 @@
 <template>
-  <div id="fh5co-wrapper">
-    <div id="fh5co-page">
-      <!-- Hader -->
-      <div id="fh5co-header">
-        <header id="fh5co-header-section">
-          <div class="container">
-            <div class="nav-header">
-              <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
-              <h1 id="fh5co-logo"><a href="index.html">Indusoftware</a>
-                <span style="cursor:pointer" @click="switchLanguage('es')">ESP</span>|<span style="cursor:pointer" @click="switchLanguage('en')">ENG</span>
-              </h1>
+  <div>
+    <b-navbar toggleable="lg" type="dark" class="bg-custom shadow fixed-top">
+      <b-navbar-toggle target="nav-text-collapse"></b-navbar-toggle>
+
+      <b-navbar-brand href="#" class="ml-lg-5">
+        <img
+          src="/images/logoIndu.png"
+          width="180"
+          height="48"
+          class="d-inline-block"
+          alt="induLogo"
+        />
+      </b-navbar-brand>
+
+      <b-collapse id="nav-text-collapse" is-nav>
+        <b-navbar-nav class="ml-lg-auto mr-lg-5">
+          <b-nav-item href="#home" class="mt-2">{{
+            $t('navbar_item_1')
+          }}</b-nav-item>
+          <b-nav-item href="#services" class="mt-2">{{
+            $t('navbar_item_2')
+          }}</b-nav-item>
+          <b-nav-item href="#clients" class="mt-2">{{
+            $t('navbar_item_3')
+          }}</b-nav-item>
+          
+          <b-nav-item href="#">
+            <div
+              id="btn-esp"
+              class="btn-lang d-flex justify-content-center align-items-center"
+              style="cursor: pointer;"
+              @click="switchLanguage('es')"
+            >
+              ESP
             </div>
-          </div>
-        </header>
-      </div>
-      <div class="fh5co-hero">
-        <div class="fh5co-overlay"></div>
-        <div class="fh5co-cover text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/chicos.jpg);">
-          <div class="desc animate-box">
-            <h2>Indusoftware <strong>Creative Teams</strong></h2>
-          </div>
-        </div>
-      </div>
-      <!-- Features -->
-      <div id="fh5co-features">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="feature-left">
-                <span class="icon">
-                  <i class="icon-lightbulb"></i>
-                </span>
-                <div class="feature-copy">
-                  <h3>{{ $t('mision_tit') }}</h3>
-                  <p>{{ $t('mision') }}</p>
-                </div>
-              </div>
+          </b-nav-item>
+          <b-nav-item href="#">
+            <div
+              id="btn-eng"
+              class="btn-lang d-flex justify-content-center align-items-center"
+              style="cursor: pointer;"
+              @click="switchLanguage('en')"
+            >
+              ENG
             </div>
-            <div class="col-md-4">
-              <div class="feature-left">
-                <span class="icon">
-                  <i class="icon-cogs"></i>
-                </span>
-                <div class="feature-copy">
-                  <h3>{{ $t('tecnologias_tit') }}</h3>
-                  <p>{{ $t('tecnologias') }}</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="feature-left">
-                <span class="icon">
-                  <i class="icon-trophy"></i>
-                </span>
-                <div class="feature-copy">
-                  <h3>{{ $t('porque_tit') }}</h3>
-                  <p>{{ $t('porque') }}</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Features product -->
-      <div id="fh5co-feature-product" class="fh5co-section-gray">
-        <div class="container">
-          <div class="row row-bottom-padded-md">
-            <div class="col-md-12 text-center heading-section">
-              <h3>{{ $t('our_services') }}</h3>
-            </div>
-            <div class="col-md-12 text-center animate-box">
-              <p><img src="images/monitor.jpg" alt="Free HTML5 Bootstrap Template" class="img-responsive"></p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4">
-              <div class="feature-text">
-                <h3><span class="number">01.</span> {{ $t('development_tit') }} </h3>
-                <p>{{ $t('development_body') }}</p>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="feature-text">
-                <h3><span class="number">02.</span> {{ $t('mobileapp_tit') }}</h3>
-                <p>{{ $t('mobileapp_body') }}</p>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="feature-text">
-                <h3><span class="number">03.</span> {{ $t('api_tit') }}</h3>
-                <p>{{ $t('api_body') }}</p>
-              </div>
+          </b-nav-item>
+        </b-navbar-nav>
+      </b-collapse>
+    </b-navbar>
+
+    <main id="home" class="w-100 mt-5">
+      <!-- BANNER -->
+      <div class="d-flex justify-content-center align-self-center bg-darker">
+        <div class="w-75">
+          <div
+            class="row d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row justify-content-center align-items-center my-5"
+          >
+            <img
+              class="col-10 col-sm-10 col-md-7 col-lg-7"
+              src="/images/banner-img.svg"
+              alt="algo"
+            />
+            <div
+              class="col-10 col-sm-10 col-md-5 col-lg-5 h-100 d-flex flex-column align-items-center align-items-sm-center align-items-md-start"
+            >
+              <h3 class="text-white">
+                <span class="subtitle-bar">{{ $t('about') }}</span>
+              </h3>
+              <p class="text-white pt-3 text-center text-md-left">
+                {{ $t('about_text') }}
+              </p>
             </div>
           </div>
         </div>
       </div>
-      <!-- Portfolio -->
-      <div id="fh5co-portfolio">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 col-md-offset-3 text-center heading-section animate-box">
-              <h3>{{ $t('clientes') }}</h3>
-            </div>
+      <!-- BANNER -->
+      <div class="w-100 d-flex justify-content-center bg-darker pt-5">
+        <div class="row d-flex w-75">
+          <div
+            class="col-md-4 col-lg-4 d-flex d-md-block flex-column align-items-center"
+          >
+            <img
+              class="icon-size"
+              src="/images/our-mission.svg"
+              alt="mission induSoftware"
+            />
+            <h3 class="text-white mt-4">
+              <span class="subtitle-bar">{{ $t('mission') }}</span>
+            </h3>
+            <p
+              class="text-white content-font-size pt-3 text-center text-md-left"
+            >
+              {{ $t('mission_text_1') }}
+            </p>
+            <p
+              class="text-white content-font-size pt-1 text-center text-md-left"
+            >
+              {{ $t('mission_text_2') }}
+            </p>
           </div>
-          <div class="row row-bottom-padded-md">
-            <div class="col-md-12">
-              <ul id="fh5co-portfolio-list">
-                <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/calico.jpg); background-size: 300px 200px; ">
-                  <a href="https://www.calicosa.com.ar/" class="color-3">
-                    <div class="case-studies-summary">
-                      <span>Calico</span>
-                      <h2>Logistica Integral</h2>
-                    </div>
-                  </a>
-                </li>
-                <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/maritima.jpg); background-size: 300px 200px; ">
-                  <a href="https://www.heinlein.com.ar/" class="color-4">
-                    <div class="case-studies-summary">
-                      <span>Maritima Heinlein</span>
-                      <h2>Shipagents-Chartering</h2>
-                    </div>
-                  </a>
-                </li>
-                <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/bp4.jpg); background-size: 300px 200px;">
-                  <a href="http://bp-4.com/" class="color-4">
-                    <div class="case-studies-summary">
-                      <span>bp4</span>
-                      <h2>Software factory</h2>
-                    </div>
-                  </a>
-                </li>
-                <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/detechtus.jpg); background-size: 300px 200px; ">
-                  <a href="#" class="color-5">
-                    <div class="case-studies-summary">
-                      <span>Detechtus</span>
-                      <h2>Timer starts now!</h2>
-                    </div>
-                  </a>
-                </li>
-                <li class="two-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/telecom.jpg); background-size: 300px 200px; ">
-                  <a href="#" class="color-6">
-                    <div class="case-studies-summary">
-                      <span>Telecom</span>
-                      <h2>Beautiful sunset</h2>
-                    </div>
-                  </a>
-                </li>
-                <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/fogaba.jpg); background-size: 300px 200px; ">
-                  <a href="#" class="color-3">
-                    <div class="case-studies-summary">
-                      <span>Fogaba</span>
-                      <h2>Useful baskets</h2>
-                    </div>
-                  </a>
-                </li>
-                <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/allianz.jpg); background-size: 300px 200px;">
-                  <a href="#" class="color-4">
-                    <div class="case-studies-summary">
-                      <span>Allianz</span>
-                      <h2>Skater man in the road</h2>
-                    </div>
-                  </a>
-                </li>
-                <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/vidatec.jpg); background-size: 300px 200px; ">
-                  <a href="#" class="color-4">
-                    <div class="case-studies-summary">
-                      <span>Vidatect</span>
-                      <h2>Two Glas of Juice</h2>
-                    </div>
-                  </a>
-                </li>
-              </ul>
-            </div>
+          <div
+            class="col-md-4 col-lg-4 d-flex d-md-block flex-column align-items-center"
+          >
+            <img
+              class="icon-size mb-4"
+              src="/images/tech.svg"
+              alt="tech induSoftware"
+            />
+            <h3 class="text-white">
+              <span class="subtitle-bar">{{ $t('tech') }}</span>
+            </h3>
+            <p
+              class="text-white content-font-size pt-3 text-center text-md-left"
+            >
+              {{ $t('tech_text_1') }}
+            </p>
+            <p
+              class="text-white content-font-size pt-1 text-center text-md-left"
+            >
+              {{ $t('tech_text_2') }}
+            </p>
+          </div>
+          <div
+            class="col-md-4 col-lg-4 d-flex d-md-block flex-column align-items-center"
+          >
+            <img
+              class="icon-size mb-4"
+              src="/images/why-indu.svg"
+              alt="why induSoftware"
+            />
+            <h3 class="text-white">
+              <span class="subtitle-bar">{{ $t('why') }}</span>
+            </h3>
+            <p
+              class="text-white content-font-size pt-3 text-center text-md-left"
+            >
+              {{ $t('why_text_1') }}
+            </p>
+            <p
+              class="text-white content-font-size pt-1 text-center text-md-left"
+            >
+              {{ $t('why_text_2') }}
+            </p>
           </div>
         </div>
       </div>
-      <!-- Content Section -->
-      <div id="fh5co-content-section" class="fh5co-section-gray">
-        <div class="container">
+      <img id="services" class="w-100" src=/images/curve-banner.svg alt />
+    </main>
+    <div class="container-fluid d-flex justify-content-center">
+      <div
+        class="w-75 d-flex flex-column align-items-center align-items-md-start"
+      >
+        <h3>{{ $t('service') }}</h3>
+        <div class="underscore"></div>
+        <div class="container-fluid">
           <div class="row">
-            <div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
-              <h3>{{ $t('quienes_somos_tit') }}</h3>
-              <p>{{ $t('quienes_somos') }}</p>
+            <div
+              class="col-md-6 order-2 order-md-1 mt-4 d-flex flex-column align-items-center align-items-md-start"
+            >
+              <h5>{{ $t('web_dev') }}</h5>
+              <div class="underscore my-4"></div>
+              <p class="text-center text-md-left">
+                {{ $t('web_dev_text') }}
+              </p>
+              <img
+                class="align-self-center mt-4"
+                src="/images/web-tec-logos.png"
+                width="20%"
+                alt="logos web"
+              />
             </div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="fh5co-testimonial text-center animate-box">
-                <figure>
-                  <img src="images/eric.jpg" alt="user">
-                </figure>
-                <blockquote>
-                  <p>{{ $t('ceo_text') }}</p>
-                </blockquote>
-                <span>{{ $t('ceo') }}</span>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="fh5co-testimonial text-center animate-box">
-                <figure>
-                  <img src="images/person_2.jpg" alt="user">
-                </figure>
-                <blockquote>
-                  <p>{{ $t('coo_text') }}</p>
-                </blockquote>
-                <span>{{ $t('coo') }}</span>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="fh5co-testimonial text-center animate-box">
-                <figure>
-                  <img src="images/person_3.jpg" alt="user">
-                </figure>
-                <blockquote>
-                  <p>{{ $t('cto_text') }}</p>
-                </blockquote>
-                <span>{{ $t('cto') }}</span>
+            <div
+              class="col-md-6 order-1 d-flex justify-content-center align-items-center"
+            >
+              <div class="image-container">
+                <img class="w-75 h-75" src="/images/web.png" alt="web Image" />
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <!-- Services Section -->
-      <div id="fh5co-services-section">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
-              <h3>{{ $t('tecno') }}</h3>
+          <div class="row my-5">
+            <div
+              class="col-md-6 order-1 d-flex justify-content-center align-items-center"
+            >
+              <div class="image-container">
+                <img
+                  class="w-75 h-75"
+                  src="/images/mobile.png"
+                  alt="mobile image"
+                />
+              </div>
+            </div>
+            <div
+              class="col-md-6 order-1 order-md-2 mt-4 d-flex flex-column align-items-center align-items-md-start"
+            >
+              <h5>{{ $t('mobile') }}</h5>
+              <div class="underscore my-4"></div>
+              <p class="text-center text-md-left">
+                {{ $t('mobile_text') }}
+              </p>
+              <img
+                class="align-self-center mt-4"
+                src="/images/mobile-tec-logos.png"
+                width="30%"
+                alt="mobile logos"
+              />
             </div>
           </div>
-        </div>
-        <div class="container">
-          <div class="row text-center">
-            <div class="col-md-4 col-sm-4">
-              <div class="services animate-box">
-                <span><i class="icon-browser"></i></span>
-                <h3>{{ $t('desarrollo') }}</h3>
-                <p>Java - Python - Grails - Microsoft.Net - Spring Boot</p>
-              </div>
+          <div class="row my-5">
+            <div
+              class="col-md-6 order-2 order-md-1 mt-4 d-flex flex-column align-items-center align-items-md-start"
+            >
+              <h5>{{ $t('other_services') }}</h5>
+              <div class="underscore my-4"></div>
+              <p class="text-center text-md-left">
+                {{ $t('other_services_text') }}
+              </p>
+              <img
+                class="align-self-center mt-4"
+                src="/images/other-services-logos.png"
+                width="25%"
+                alt="services logo"
+              />
             </div>
-            <div class="col-md-4 col-sm-4">
-              <div class="services animate-box">
-                <span><i class="icon-mobile"></i></span>
-                <h3>{{ $t('desarrollo_web') }}</h3>
-                <p>React JS - Angular - Node Js- Html 5 - Bootstrap</p>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-4">
-              <div class="services animate-box">
-                <span><i class="icon-tools"></i></span>
-                <h3>{{ $t('desarrollo_movil') }}</h3>
-                <p>Android - iOS - React Native - Ionic - Flutter - Otra cosa</p>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-4">
-              <div class="services animate-box">
-                <span><i class="icon-video"></i></span>
-                <h3>{{ $t('devops') }}</h3>
-                <p>Gloogle Cloud - aws - Azure - docker - Ansible - Kubernetes - git - Jenkins</p>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-4">
-              <div class="services animate-box">
-                <span><i class="icon-cloud"></i></span>
-                <h3>{{ $t('base_datos') }}</h3>
-                <p>Oracle - Sql Server - mongo DB - Postgress SQL - Firebase</p>
+            <div
+              class="col-md-6 order-1 d-flex justify-content-center align-items-center"
+            >
+              <div
+                class="image-container d-flex justify-content-center align-items-center"
+              >
+                <img
+                  class="w-100 h-100"
+                  src="/images/other-services.png"
+                  alt="other services image"
+                />
               </div>
             </div>
           </div>
         </div>
       </div>
-      <!-- Blog Section -->
-      <div id="fh5co-blog-section" class="fh5co-section-gray">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
-              <h3>{{ $t('equipo_tit') }}</h3>
-              <p>{{ $t('equipo_body') }}</p>
-            </div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <p><img src="images/equipo.jpg" class="img-responsive"></p>
-          </div>
-        </div>
-      </div>
-      <!--Footer -->
-      <footer>
-        <div id="footer">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-6 col-md-offset-3 text-center">
-                <p class="fh5co-social-icons">
-                  <a href="#"><i class="icon-twitter2"></i></a>
-                  <a href="#"><i class="icon-facebook2"></i></a>
-                  <a href="#"><i class="icon-instagram"></i></a>
-                  <a href="#"><i class="icon-dribbble2"></i></a>
-                  <a href="#"><i class="icon-youtube"></i></a>
-                </p>
-                <p>Copyright 2020 <a href="#">Indusoftware</a>. All Rights Reserved. </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
     </div>
+    <div id="clients" class="w-100 container-fluid d-flex justify-content-center">
+      <div
+        class="w-75 d-flex flex-column align-items-center align-items-md-start"
+      >
+        <div class="w-100">
+          <h3 class="text-center text-md-left text-lg-left text-xl-left">
+            {{$t('clients')}}
+          </h3>
+        </div>
+        <div class="underscore"></div>
+        <div
+          class="d-flex px-0 px-md-4 px-lg-4 w-100 row justify-content-between justify-content-md-center justify-content-lg-center justify-content-xl-center"
+        >
+          <a
+            class="col-5 col-sm-6 col-md-4 col-lg-3 col-xl-3 my-4 px-0 px-sm-1 px-md-2 px-lg-4 px-xl-4"
+            target="_blank"
+            href="https://www.allianz.es/"
+            ><div class="client1"></div
+          ></a>
+          <a
+            class="col-5 col-sm-6 col-md-4 col-lg-3 col-xl-3 my-4 px-0 px-sm-1 px-md-2 px-lg-4 px-xl-4"
+            target="_blank"
+            href="http://bp-4.com/"
+            ><div class="client2"></div
+          ></a>
+          <a
+            class="col-5 col-sm-6 col-md-4 col-lg-3 col-xl-3 my-4 px-0 px-sm-1 px-md-2 px-lg-4 px-xl-4"
+            target="_blank"
+            href="http://www.brainsys.com.ar/"
+            ><div class="client3"></div
+          ></a>
+          <a
+            class="col-5 col-sm-6 col-md-4 col-lg-3 col-xl-3 my-4 px-0 px-sm-1 px-md-2 px-lg-4 px-xl-4"
+            target="_blank"
+            href=""
+            ><div class="client4"></div
+          ></a>
+          <a
+            class="col-5 col-sm-6 col-md-4 col-lg-3 col-xl-3 my-4 px-0 px-sm-1 px-md-2 px-lg-4 px-xl-4"
+            target="_blank"
+            href="http://www.fogaba.com.ar/"
+            ><div class="client5"></div
+          ></a>
+          <a
+            class="col-5 col-sm-6 col-md-4 col-lg-3 col-xl-3 my-4 px-0 px-sm-1 px-md-2 px-lg-4 px-xl-4"
+            target="_blank"
+            href="https://www.heinlein.com.ar/"
+            ><div class="client6"></div
+          ></a>
+          <a
+            class="col-5 col-sm-6 col-md-4 col-lg-3 col-xl-3 my-4 px-0 px-sm-1 px-md-2 px-lg-4 px-xl-4"
+            target="_blank"
+            href="https://institucional.telecom.com.ar/"
+            ><div class="client7"></div
+          ></a>
+          <a
+            class="col-5 col-sm-6 col-md-4 col-lg-3 col-xl-3 my-4 px-0 px-sm-1 px-md-2 px-lg-4 px-xl-4"
+            target="_blank"
+            href="https://www.vi-datec.com/"
+            ><div class="client8"></div
+          ></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <img class="w-100" src=/images/curve-footer.svg alt />
+    <footer class="bg-darker px-2">
+      <div class="d-flex justify-content-center px-4 mx-lg-5 px-lg-5 mx-3">
+        <div class="w-100 row">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+            <h5 class="text-white">
+              <span class="subtitle-bar pb-1">{{ $t('office') }}</span>
+            </h5>
+            <div class="py-4">
+              <span class="text-white" style="font-size: small;"
+                >Washington DC, USA (CO)</span
+              ><br />
+              <span class="text-white" style="font-size: small;"
+                >San Salvador de Jujuy, Argentina (DC)</span
+              ><br />
+              <span class="text-white" style="font-size: small;"
+                >Posadas, Misiones (DC)</span
+              ><br />
+              <span class="text-white" style="font-size: small;"
+                >CABA, Argentina (HQ)</span
+              >
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+            <h5 class="text-white">
+              <span class="subtitle-bar pb-1">{{ $t('contact') }}</span>
+            </h5>
+            <div class="py-4">
+              <div>
+                <img src="" alt="" /><span
+                  class="text-white"
+                  style="font-size: small;"
+                  >Buenos Aires HQ: +54 11 4026 3809</span
+                >
+              </div>
+              <div>
+                <img src="" alt="" /><span
+                  class="text-white"
+                  style="font-size: small;"
+                  >contacto@induSoftware.com.ar</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+            <h5 class="text-white">
+              <span class="subtitle-bar pb-1">{{ $t('follow') }}</span>
+            </h5>
+            <div class="py-4">
+              <a
+                href="https://www.instagram.com/indusoftwareok/"
+                target="_blank"
+                ><img
+                  class="img img-fluid"
+                  src="/images/instagram.svg"
+                  alt="instagram indusoftware"
+                  style="width: 25px;"
+              /></a>
+              <a
+                href="https://www.linkedin.com/company/indusoftware/"
+                target="_blank"
+                ><img
+                  class="img img-fluid"
+                  src="/images/linkedin.svg"
+                  alt="linkedin indusoftware"
+                  style="width: 25px;"
+              /></a>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 text-center text-lg-left text-xl-left"
+          >
+            <img
+              class="py-4 img-fluid"
+              src="/images/logoIndu.png"
+              alt="logo indusoftware"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="bg-foot2 text-center text-white p-3"
+        style="font-size: small;"
+      >
+        &copy; 2014-2020 InduSoftware | All rights reserved.
+      </div>
+    </footer>
+    <!-- FOOTER -->
   </div>
 </template>
+
 <script>
 export default {
-  head: {
-    script: [
-      { src: '/js/jquery.min.js' },
-      { src: '/js/jquery.easing.1.3.js' },
-      { src: '/js/bootstrap.min.js' },
-      { src: '/js/jquery.waypoints.min.js' },
-      { src: '/js/jquery.stellar.min.js' },
-      { src: '/js/hoverIntent.js' },
-      { src: '/js/superfish.js' },
-      { src: '/js/main.js' }
-    ]
+  mounted() {
+    if (this.$cookies.get('locale') === 'es') {
+      document.getElementById('btn-esp').classList.toggle('btn-lang--active')
+    } else {
+      document.getElementById('btn-esp').classList.remove('btn-lang--active')
+      document.getElementById('btn-eng').classList.toggle('btn-lang--active')
+    }
   },
   computed: {
-    locales () { return this.$store.state.locales },
-    locale () { return this.$store.state.locale }
+    locales() {
+      return this.$store.state.locales
+    },
+    locale() {
+      return this.$store.state.locale
+    },
   },
   methods: {
-    switchLanguage (localeCode) {
-      console.log('Language: ' + localeCode)
+    switchLanguage(localeCode) {
       this.$cookies.set('locale', localeCode, {
         path: '/',
-        maxAge: 60 * 60 * 24 * 7
+        maxAge: 60 * 60 * 24 * 7,
       })
-      console.log('cookie: ' + this.$cookies.get('locale'))
       location.reload()
-      //  document.cookie = `locale=${localeCode}`
-      //      this.$i18n.locale = localeCode
-    }
-  }
+    },
+  },
 }
 </script>
-
-<style>
-
-</style>

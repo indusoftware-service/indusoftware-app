@@ -1,0 +1,122 @@
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+    font-size: 14px;
+    margin-top: 1rem;
+}
+h3{
+    padding-bottom: 12px;
+}
+.underscore{
+    width: 200px;
+    height: 1.8px;
+    background-color:#C6D936;
+}
+.bg-custom {
+  background-color: #2d2d2d;
+}
+.btn-lang {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: white;
+  color: white;
+}
+.btn-lang--active {
+  background-color: #d3df7b;
+  border-color: #C6D936;
+}
+.nav-link {
+    color: white!important;
+}
+.nav-link:hover{
+    border-bottom: 1.8px solid #C6D936 ;
+}
+
+.bg-darker {
+  background: #222222;
+}
+.links {
+  padding-top: 15px;
+}
+.content-font-size{
+  font-size: 0.9em;
+}
+.icon-size{
+  width: auto;
+  height: 120px;
+}
+.subtitle-bar{
+  border-bottom: 2px solid #C7D935 
+}
+.client1{
+  background-image: url(images/allianz.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:center;
+  width: auto;
+  height: 100px;
+}
+.client2{
+  background-image: url(images/bp4.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:center;
+  width: auto;
+  height: 100px;
+}
+.client3{
+  background-image: url(images/brainsys.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:center;
+  width: auto;
+  height: 100px;
+}
+.client4{
+  background-image: url(images/detechtus.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:center;
+  width: auto;
+  height: 100px;
+}
+.client5{
+  background-image: url(images/fobaga.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:center;
+  width: auto;
+  height: 100px;
+}
+.client6{
+  background-image: url(images/maritima.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:center;
+  width: auto;
+  height: 100px;
+}
+.client7{
+  background-image: url(images/telecom.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:center;
+  width: auto;
+  height: 100px;
+}
+.client8{
+  background-image: url(images/vidatec.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:center;
+  width: auto;
+  height: 100px;
+}
+.img-clients{
+  max-height: 200px;
+  min-width: 50px;
+}
