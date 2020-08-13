@@ -291,12 +291,6 @@
           <a
             class="col-5 col-sm-6 col-md-4 col-lg-3 col-xl-3 my-4 px-0 px-sm-1 px-md-2 px-lg-4 px-xl-4"
             target="_blank"
-            href="https://institucional.telecom.com.ar/"
-            ><div class="client7"></div
-          ></a>
-          <a
-            class="col-5 col-sm-6 col-md-4 col-lg-3 col-xl-3 my-4 px-0 px-sm-1 px-md-2 px-lg-4 px-xl-4"
-            target="_blank"
             href="https://www.vi-datec.com/"
             ><div class="client8"></div
           ></a>
@@ -314,18 +308,17 @@
               <span class="subtitle-bar pb-1">{{ $t('office') }}</span>
             </h5>
             <div class="py-4">
+              <span class="text-white" style="font-size: small;">
+                CABA, Argentina (HQ)</span>
+              <br />
               <span class="text-white" style="font-size: small;"
-                >Washington DC, USA (CO)</span
+                >Posadas, Misiones (DC)</span
               ><br />
               <span class="text-white" style="font-size: small;"
                 >San Salvador de Jujuy, Argentina (DC)</span
               ><br />
               <span class="text-white" style="font-size: small;"
-                >Posadas, Misiones (DC)</span
-              ><br />
-              <span class="text-white" style="font-size: small;"
-                >CABA, Argentina (HQ)</span
-              >
+                >Washington DC, USA (CO)</span>
             </div>
           </div>
           <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
