@@ -67,7 +67,7 @@
               <h3 class="text-white">
                 <span class="subtitle-bar">{{ $t('about') }}</span>
               </h3>
-              <p class="text-white pt-3 text-center text-md-left">
+              <p class="text-white pt-3 text-justify text-md-left">
                 {{ $t('about_text') }}
               </p>
             </div>
@@ -89,12 +89,12 @@
               <span class="subtitle-bar">{{ $t('mission') }}</span>
             </h3>
             <p
-              class="text-white content-font-size pt-3 text-center text-md-left"
+              class="text-white pt-3 text-center text-md-left"
             >
               {{ $t('mission_text_1') }}
             </p>
             <p
-              class="text-white content-font-size pt-1 text-center text-md-left"
+              class="text-white pt-1 text-center text-md-left"
             >
               {{ $t('mission_text_2') }}
             </p>
@@ -111,12 +111,12 @@
               <span class="subtitle-bar">{{ $t('tech') }}</span>
             </h3>
             <p
-              class="text-white content-font-size pt-3 text-center text-md-left"
+              class="text-white pt-3 text-center text-md-left"
             >
               {{ $t('tech_text_1') }}
             </p>
             <p
-              class="text-white content-font-size pt-1 text-center text-md-left"
+              class="text-white pt-1 text-center text-md-left"
             >
               {{ $t('tech_text_2') }}
             </p>
@@ -308,16 +308,16 @@
               <span class="subtitle-bar pb-1">{{ $t('office') }}</span>
             </h5>
             <div class="py-4">
-              <span class="text-white" style="font-size: small;">
+              <span class="text-white" style="font-size: 0.9em;">
                 CABA, Argentina (HQ)</span>
               <br />
-              <span class="text-white" style="font-size: small;"
+              <span class="text-white" style="font-size: 0.9em;"
                 >Posadas, Misiones (DC)</span
               ><br />
-              <span class="text-white" style="font-size: small;"
+              <span class="text-white" style="font-size: 0.9em;"
                 >San Salvador de Jujuy, Argentina (DC)</span
               ><br />
-              <span class="text-white" style="font-size: small;"
+              <span class="text-white" style="font-size: 0.9em;"
                 >Washington DC, USA (CO)</span>
             </div>
           </div>
@@ -327,16 +327,25 @@
             </h5>
             <div class="py-4">
               <div>
+                <a href="https://api.whatsapp.com/send?phone=541140263809&text=Hi%20I%20want%20to%20contact%20you">
+                  <img src="" alt="" /><span
+                    class="text-white"
+                    style="font-size: 0.9em;"
+                    >Buenos Aires HQ: +54 11 4026 3809</span
+                  >
+                </a>  
+              </div>
+              <div>
                 <img src="" alt="" /><span
                   class="text-white"
-                  style="font-size: small;"
-                  >Buenos Aires HQ: +54 11 4026 3809</span
+                  style="font-size: 0.9em;"
+                  >Washington Office: +1 703 953 4286</span
                 >
               </div>
               <div>
                 <img src="" alt="" /><span
                   class="text-white"
-                  style="font-size: small;"
+                  style="font-size: 0.9em;"
                   >contacto@induSoftware.com.ar</span
                 >
               </div>
