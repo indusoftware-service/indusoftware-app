@@ -67,7 +67,7 @@
               <h3 class="text-white">
                 <span class="subtitle-bar">{{ $t('about') }}</span>
               </h3>
-              <p class="text-white pt-3 text-md-left">
+              <p class="text-white pt-3 text-center text-md-left">
                 {{ $t('about_text') }}
               </p>
             </div>
