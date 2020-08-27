@@ -24,6 +24,10 @@
           <b-nav-item href="#clients" class="mt-2">{{
             $t('navbar_item_3')
           }}</b-nav-item>
+          <b-nav-item href="#contacto" class="mt-2">{{
+            $t('navbar_item_4')
+          }}</b-nav-item>
+
           
           <b-nav-item href="#">
             <div
@@ -300,7 +304,7 @@
 
     <!-- FOOTER -->
     <img class="w-100" src=/images/curve-footer.svg alt />
-    <footer class="bg-darker px-2">
+    <footer id='contacto' class="bg-darker px-2">
       <div class="d-flex justify-content-center px-4 mx-lg-5 px-lg-5 mx-3">
         <div class="w-100 row">
           <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
@@ -331,9 +335,14 @@
                   <img src="" alt="" /><span
                     class="text-white"
                     style="font-size: 0.9em;"
-                    >Buenos Aires HQ: +54 11 4026 3809</span
-                  >
-                </a>  
+                    >Buenos Aires HQ: +54 11 4026 3809</span>
+                </a>
+                <img
+                  class="img img-fluid"
+                  src="/images/whatsapp.svg"
+                  alt="whatsapp indusoftware"
+                  style="width: 18px;"
+                />  
               </div>
               <div>
                 <img src="" alt="" /><span
