@@ -68,12 +68,12 @@ h3{
   height: 100px;
 }
 .client3{
-  background-image: url(images/brainsys.png);
+  background-image: url(images/calico.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position:center;
   width: auto;
-  height: 100px;
+  height: 150px;
 }
 .client4{
   background-image: url(images/detechtus.png);

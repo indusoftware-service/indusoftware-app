@@ -271,7 +271,7 @@
           <a
             class="col-5 col-sm-6 col-md-4 col-lg-3 col-xl-3 my-4 px-0 px-sm-1 px-md-2 px-lg-4 px-xl-4"
             target="_blank"
-            href="http://www.brainsys.com.ar/"
+            href="http://www.calicosa.com.ar/"
             ><div class="client3"></div
           ></a>
           <a
@@ -337,12 +337,14 @@
                     style="font-size: 0.9em;"
                     >Buenos Aires HQ: +54 11 4026 3809</span>
                 </a>
+                <a href="https://api.whatsapp.com/send?phone=541140263809&text=Hi%20I%20want%20to%20contact%20you">
                 <img
                   class="img img-fluid"
                   src="/images/whatsapp.svg"
                   alt="whatsapp indusoftware"
                   style="width: 18px;"
-                />  
+                />
+                </a>  
               </div>
               <div>
                 <img src="" alt="" /><span
@@ -410,7 +412,7 @@
 <script>
 export default {
   mounted() {
-    if (this.$cookies.get('locale') === 'es') {
+    if (this.$cookies.get('locale') === undefined || this.$cookies.get('locale') === 'es') {
       document.getElementById('btn-esp').classList.toggle('btn-lang--active')
     } else {
       document.getElementById('btn-esp').classList.remove('btn-lang--active')
@@ -431,7 +433,15 @@ export default {
         path: '/',
         maxAge: 60 * 60 * 24 * 7,
       })
-      location.reload()
+      var url = window.location.href;
+      url =  url.split("?")[0];  
+      if(localeCode=='en'){
+        url += '?lang=en'
+      } else {
+        url += '?lang=es'
+      }  
+      window.location.href = url;
+      //location.reload()
     },
   },
 }
