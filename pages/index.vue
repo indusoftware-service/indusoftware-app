@@ -66,7 +66,7 @@
               alt="algo"
             />
             <div
-              class="col-10 col-sm-10 col-md-5 col-lg-5 h-100 d-flex flex-column align-items-center align-items-sm-center align-items-md-start"
+              class="p-0 col-12 col-sm-10 col-md-5 col-lg-5 h-100 d-flex flex-column align-items-center align-items-sm-center align-items-md-start"
             >
               <h3 class="text-white">
                 <span class="subtitle-bar">{{ $t('about') }}</span>
