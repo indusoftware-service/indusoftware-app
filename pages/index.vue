@@ -82,29 +82,29 @@
       <div class="w-100 d-flex justify-content-center bg-darker pt-5">
         <div class="row d-flex w-75">
           <div
-            class="col-md-4 col-lg-4 d-flex d-md-block flex-column align-items-center"
+            class="pl-0 col-md-4 col-lg-4 d-flex d-md-block flex-column align-items-center"
           >
             <img
               class="icon-size"
               src="/images/our-mission.svg"
               alt="mission induSoftware"
             />
-            <h3 class="text-white mt-4">
-              <span class="subtitle-bar">{{ $t('mission') }}</span>
-            </h3>
-            <p
-              class="text-white pt-3 text-center text-md-left"
-            >
-              {{ $t('mission_text_1') }}
-            </p>
-            <p
-              class="text-white pt-1 text-center text-md-left"
-            >
-              {{ $t('mission_text_2') }}
-            </p>
+              <h3 class="text-white mt-4">
+                <span class="subtitle-bar">{{ $t('mission') }}</span>
+              </h3>
+              <p
+                class="text-white pt-3 text-center text-md-left"
+              >
+                {{ $t('mission_text_1') }}
+              </p>
+              <p
+                class="text-white pt-1 text-center text-md-left"
+              >
+                {{ $t('mission_text_2') }}
+              </p>
           </div>
           <div
-            class="col-md-4 col-lg-4 d-flex d-md-block flex-column align-items-center"
+            class="pl-0 col-12 col-sm-10 col-md-4 col-lg-4 d-flex d-md-block flex-column align-items-center"
           >
             <img
               class="icon-size mb-4"
@@ -126,7 +126,7 @@
             </p>
           </div>
           <div
-            class="col-md-4 col-lg-4 d-flex d-md-block flex-column align-items-center"
+            class="pl-0 col-12 col-sm-10 col-md-4 col-lg-4 d-flex d-md-block flex-column align-items-center"
           >
             <img
               class="icon-size mb-4"
@@ -160,7 +160,7 @@
         <div class="container-fluid">
           <div class="row">
             <div
-              class="col-md-6 order-2 order-md-1 mt-4 d-flex flex-column align-items-center align-items-md-start"
+              class="pl-0 col-md-6 order-2 order-md-1 mt-4 d-flex flex-column align-items-center align-items-md-start"
             >
               <h5>{{ $t('web_dev') }}</h5>
               <div class="underscore my-4"></div>
@@ -175,7 +175,7 @@
               />
             </div>
             <div
-              class="col-md-6 order-1 d-flex justify-content-center align-items-center"
+              class="pl-0 col-md-6 order-1 d-flex justify-content-center align-items-center"
             >
               <div class="image-container">
                 <img class="w-75 h-75" src="/images/web.png" alt="web Image" />
@@ -195,7 +195,7 @@
               </div>
             </div>
             <div
-              class="col-md-6 order-1 order-md-2 mt-4 d-flex flex-column align-items-center align-items-md-start"
+              class="pl-0 col-md-6 order-1 order-md-2 mt-4 d-flex flex-column align-items-center align-items-md-start"
             >
               <h5>{{ $t('mobile') }}</h5>
               <div class="underscore my-4"></div>
@@ -212,7 +212,7 @@
           </div>
           <div class="row my-5">
             <div
-              class="col-md-6 order-2 order-md-1 mt-4 d-flex flex-column align-items-center align-items-md-start"
+              class="pl-0 col-md-6 order-2 order-md-1 mt-4 d-flex flex-column align-items-center align-items-md-start"
             >
               <h5>{{ $t('other_services') }}</h5>
               <div class="underscore my-4"></div>
