@@ -52,7 +52,7 @@ h3{
   border-bottom: 2px solid #C7D935 
 }
 .client1{
-  background-image: url(images/allianz.png);
+  background-image: url(images/maritima.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position:center;
@@ -60,7 +60,7 @@ h3{
   height: 100px;
 }
 .client2{
-  background-image: url(images/bp4.png);
+  background-image: url(images/vidatec.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position:center;
@@ -76,7 +76,7 @@ h3{
   height: 150px;
 }
 .client4{
-  background-image: url(images/detechtus.png);
+  background-image: url(images/bp4.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position:center;
@@ -84,7 +84,7 @@ h3{
   height: 100px;
 }
 .client5{
-  background-image: url(images/fobaga.png);
+  background-image: url(images/detechtus.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position:center;
@@ -92,7 +92,7 @@ h3{
   height: 100px;
 }
 .client6{
-  background-image: url(images/maritima.png);
+  background-image: url(images/fobaga.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position:center;
@@ -108,7 +108,7 @@ h3{
   height: 100px;
 }
 .client8{
-  background-image: url(images/vidatec.png);
+  background-image: url(images/allianz.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position:center;

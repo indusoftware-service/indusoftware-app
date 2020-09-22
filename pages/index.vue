@@ -259,13 +259,13 @@
           <a
             class="col-5 col-sm-6 col-md-4 col-lg-3 col-xl-3 my-4 px-0 px-sm-1 px-md-2 px-lg-4 px-xl-4"
             target="_blank"
-            href="https://www.allianz.es/"
+            href="https://www.heinlein.com.ar/"
             ><div class="client1"></div
           ></a>
           <a
             class="col-5 col-sm-6 col-md-4 col-lg-3 col-xl-3 my-4 px-0 px-sm-1 px-md-2 px-lg-4 px-xl-4"
             target="_blank"
-            href="http://bp-4.com/"
+            href="https://www.vi-datec.com/"
             ><div class="client2"></div
           ></a>
           <a
@@ -277,25 +277,25 @@
           <a
             class="col-5 col-sm-6 col-md-4 col-lg-3 col-xl-3 my-4 px-0 px-sm-1 px-md-2 px-lg-4 px-xl-4"
             target="_blank"
-            href=""
+            href="http://bp-4.com/"
             ><div class="client4"></div
           ></a>
           <a
             class="col-5 col-sm-6 col-md-4 col-lg-3 col-xl-3 my-4 px-0 px-sm-1 px-md-2 px-lg-4 px-xl-4"
             target="_blank"
-            href="http://www.fogaba.com.ar/"
+            href=""
             ><div class="client5"></div
           ></a>
           <a
             class="col-5 col-sm-6 col-md-4 col-lg-3 col-xl-3 my-4 px-0 px-sm-1 px-md-2 px-lg-4 px-xl-4"
             target="_blank"
-            href="https://www.heinlein.com.ar/"
+            href="http://www.fogaba.com.ar/"
             ><div class="client6"></div
           ></a>
           <a
             class="col-5 col-sm-6 col-md-4 col-lg-3 col-xl-3 my-4 px-0 px-sm-1 px-md-2 px-lg-4 px-xl-4"
             target="_blank"
-            href="https://www.vi-datec.com/"
+            href="https://www.allianz.es/"
             ><div class="client8"></div
           ></a>
         </div>
