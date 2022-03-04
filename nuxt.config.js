@@ -17,7 +17,7 @@ export default {
   head: {
     title: 'induSoftware | Creative Teams',
     script: [
-      { type: 'text/javascript', src:'//js.hs-scripts.com/8219400.js', body: true, async: true}
+      //{ type: 'text/javascript', src:'//js.hs-scripts.com/8219400.js', body: true, async: true}
     ],
     meta: [
       { charset: 'utf-8' },

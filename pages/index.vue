@@ -402,7 +402,7 @@
         class="bg-foot2 text-center text-white p-3"
         style="font-size: small;"
       >
-        &copy; 2014-2020 InduSoftware | All rights reserved.
+        &copy; 2014-2022 InduSoftware | All rights reserved.
       </div>
     </footer>
     <!-- FOOTER -->
@@ -419,6 +419,15 @@ export default {
       document.getElementById('btn-eng').classList.toggle('btn-lang--active')
     }
   },
+  head() {
+    return {
+      script: [
+          {
+            src: '//js.hs-scripts.com/8219400.js'
+          }
+      ],
+    }
+  },  
   computed: {
     locales() {
       return this.$store.state.locales
