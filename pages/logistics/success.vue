@@ -11,7 +11,9 @@
                 </h2>
             </div>
         </main>
-
+        <br>
+        <br>
+        <br>
         <!-- FOOTER -->
         <img class="w-100" src=/images/curve-footer.svg alt />
         <footer id='contacto' class="bg-darker px-2">

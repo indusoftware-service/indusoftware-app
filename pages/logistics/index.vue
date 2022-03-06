@@ -53,7 +53,7 @@
                                         </p>
                                     </div>
                                     <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center bg-light rounded-3">
-                                        <form name="contact" method="POST" action='/logistics/success' data-netlify="true">
+                                        <form name="contact" method="POST" action='/logistics/success/' data-netlify="true">
                                             <h2 class="text-center text-md-left text-lg-left text-xl-left">
                                                 <span class="subtitle-bar">Contact us for a free quote</span>
                                             </h2>
