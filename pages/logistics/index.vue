@@ -53,7 +53,7 @@
                                         </p>
                                     </div>
                                     <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center bg-light rounded-3">
-                                        <form name="contact" method="POST" action='/logistics/success/' data-netlify="true">
+                                        <form name="contact" method="POST" action='/logistics/success' data-netlify="true">
                                             <h2 class="text-center text-md-left text-lg-left text-xl-left">
                                                 <span class="subtitle-bar">Contact us for a free quote</span>
                                             </h2>
@@ -63,6 +63,7 @@
                                            <input type="email" class="form-control mb-3" placeholder="Email" aria-label="Email">
                                            <label for="">Leave a Message</label>
                                            <textarea class="form-control mb-3" rows="3" placeholder="Enter your message" style="resize:none"></textarea>
+                                           <input type="hidden" name="form-name" value="contact" />
                                            <button type="submit" class="btn btn-outline-dark btn-lg w-100  mb-3">Send</button>
                                         </form>
                                     </div>
