@@ -56,7 +56,7 @@
                                         <h2 class="text-center text-md-left text-lg-left text-xl-left">
                                             <span class="subtitle-bar">Contact us for a free quote</span>
                                         </h2>
-                                        <form name="contact" method="POST" action='/logistics/success' data-netlify="true" data-netlify-honeypot="bot-field">
+                                        <form name="contact" data-netlify="true" data-netlify-honeypot="bot-field" method="POST">
                                            <input type="hidden" name="form-name" value="contact" />
                                            <label for="" class="mt-3">Your Name</label>
                                            <input type="text" class="form-control mb-3" placeholder="Name" aria-label="Name">
