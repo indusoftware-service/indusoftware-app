@@ -59,11 +59,11 @@
                                                 <span class="subtitle-bar">Contact us for a free quote</span>
                                             </h2>
                                            <label for="" class="mt-3">Your Name</label>
-                                           <input type="text" class="form-control mb-3" placeholder="Name" aria-label="Name">
+                                           <input type="text" class="form-control mb-3" placeholder="Name" aria-label="Name" name="name">
                                            <label for="">Your Email</label>
-                                           <input type="email" class="form-control mb-3" placeholder="Email" aria-label="Email">
+                                           <input type="email" class="form-control mb-3" placeholder="Email" aria-label="Email" name="email">
                                            <label for="">Leave a Message</label>
-                                           <textarea class="form-control mb-3" rows="3" placeholder="Enter your message" style="resize:none"></textarea>
+                                           <textarea class="form-control mb-3" rows="3" placeholder="Enter your message" style="resize:none" name="message"></textarea>
                                            
                                            <button type="submit" class="btn btn-outline-dark btn-lg w-100  mb-3">Send</button>
                                         </form>
