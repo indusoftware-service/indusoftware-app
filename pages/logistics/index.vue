@@ -53,11 +53,11 @@
                                         </p>
                                     </div>
                                     <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center bg-light rounded-3">
-                                        <h2 class="text-center text-md-left text-lg-left text-xl-left">
-                                            <span class="subtitle-bar">Contact us for a free quote</span>
-                                        </h2>
                                         <form name="contact" data-netlify="true" data-netlify-honeypot="bot-field" method="POST">
                                            <input type="hidden" name="form-name" value="contact" />
+                                            <h2 class="text-center text-md-left text-lg-left text-xl-left">
+                                                <span class="subtitle-bar">Contact us for a free quote</span>
+                                            </h2>
                                            <label for="" class="mt-3">Your Name</label>
                                            <input type="text" class="form-control mb-3" placeholder="Name" aria-label="Name">
                                            <label for="">Your Email</label>
