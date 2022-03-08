@@ -40,6 +40,7 @@ export default {
   */
   plugins: [
     { src: '~/plugins/i18n' },
+    { src: '~/plugins/vue-gtag.js'}
   ],
   /*
   ** Auto import components
