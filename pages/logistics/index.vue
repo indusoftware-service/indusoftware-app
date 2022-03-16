@@ -134,7 +134,7 @@
 </template>
 
 <script>
-    import bikeImg from "assets/logistica-scaled.jpeg";
+    import bikeImg from "assets/contenedores.jpg";
     export default {
         data() {
             return {
