@@ -21,26 +21,14 @@
                             <div class="w-100 p-3">
                                 <div class="row">
                                     <div class="col-12 col-lg-6">
+                                        
+                                        <h2 class="text-center text-md-left text-lg-left text-xl-left">
+                                        Does your company require you to improve your logistics performance, but you can't find enough technical resources in the market to carry this out?
+                                        <br>
+                                        Is budget an issue, and you need expert talents with convient costs?
+                                        </h2>
                                         <p class="pt-3 text-center text-md-left">
-                                            Logistics software systems provide a number of solutions to customers, from
-                                            transportation companies to warehouses. They help companies to:
-                                        <ul>
-                                            <li>Improve efficiency, planning, shipping, and delivery time</li>
-                                            <li>Facilitate real-time tracking and inventory management</li>
-                                            <li>Automate processes and systems</li>
-                                            <li>Streamline communication and reporting efforts for clients</li>
-                                            <li>Optimize route planning and booking of transportation services</li>
-                                            <li>Locate and track freight and goods via electronic means</li>
-                                            <li>Coordinate warehouse, shipping, distribution, and transportation
-                                                management</li>
-                                            <li>Reduce vehicle, navigation, transportation and operations expenses</li>
-                                            <li>Oversee and optimize all electronic systems and processes</li>
-                                            <li>Plan shipping, reordering, and restocking inventory</li>
-                                            <li>Eliminate redundancies and implement automation</li>
-                                            <li>Improve security through real-time alerts</li>
-                                            <li>Improve overall customer service</li>
-                                        </ul>
-                                        A logistics software development company like induSoftware has the experience to
+                                        A logistics software development company like <b>induSoftware</b> has the experience to
                                         work with you to optimize every process and facilitate the implementation and
                                         integration of custom technologies, no matter what your requirements or
                                         industry.
@@ -56,7 +44,7 @@
                                         <form name="contact" data-netlify="true" data-netlify-honeypot="bot-field" method="POST">
                                            <input type="hidden" name="form-name" value="contact" />
                                             <h2 class="text-center text-md-left text-lg-left text-xl-left">
-                                                <span class="subtitle-bar">Contact us for a free quote</span>
+                                                <span class="subtitle-bar">Contact us for a personalized proposal</span>
                                             </h2>
                                            <label for="" class="mt-3">Your Name</label>
                                            <input type="text" class="form-control mb-3" placeholder="Name" aria-label="Name" name="name">
@@ -146,4 +134,12 @@
 </template>
 
 <script>
+import bikeImg from "assets/logistica-scaled.jpeg";
+export default {
+  data() {
+    return {
+      image: { backgroundImage: `url(${bikeImg})`},
+    };
+  }
+};
 </script>
