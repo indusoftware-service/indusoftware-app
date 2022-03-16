@@ -134,12 +134,12 @@
 </template>
 
 <script>
-import bikeImg from "assets/logistica-scaled.jpeg";
-export default {
-  data() {
-    return {
-      image: { backgroundImage: `url(${bikeImg})`},
+    import bikeImg from "assets/logistica-scaled.jpeg";
+    export default {
+        data() {
+            return {
+            image: { backgroundImage: `url(${bikeImg})`},
+            };
+        }
     };
-  }
-};
 </script>
