@@ -19,7 +19,7 @@
                         </div>
                         <div class="container-fluid">
                             <div class="w-100 p-3">
-                                <div class="row bg-dark opacity-75 round">
+                                <div class="row bg-dark opacity-custom round">
                                     <div class="col-12 col-lg-6  p-4 tx-size text-white">
                                         
                                         <h2 class="text-center text-md-left text-lg-left text-xl-left ">
@@ -138,7 +138,7 @@
     export default {
         data() {
             return {
-            image: { backgroundImage: `url(${bikeImg})`},
+            image: { backgroundImage: `url(${bikeImg})`, backgroundRepeat: "no-repeat", backgroundSize: "cover", position:"relative"},
             };
         }
     };
