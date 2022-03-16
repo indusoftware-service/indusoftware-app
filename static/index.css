@@ -131,3 +131,13 @@ h3{
 .round{
   border-radius: 20px;
 }
+
+.div-form{
+  border-radius: 20px;
+  opacity: 75%;
+  background-color: #343a40!important;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
