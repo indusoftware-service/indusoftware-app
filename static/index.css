@@ -119,3 +119,15 @@ h3{
   max-height: 200px;
   min-width: 50px;
 }
+
+.opacity-25{
+  opacity: 85%;
+}
+
+.tx-size{
+  font-size: 1.2em;
+}
+
+.round{
+  border-radius: 20px;
+}

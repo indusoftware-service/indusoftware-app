@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div :style="image">
         <b-navbar toggleable="lg" type="dark" class="bg-custom shadow fixed-top">
             <b-navbar-toggle target="nav-text-collapse"></b-navbar-toggle>
 
@@ -19,10 +19,10 @@
                         </div>
                         <div class="container-fluid">
                             <div class="w-100 p-3">
-                                <div class="row">
-                                    <div class="col-12 col-lg-6">
+                                <div class="row bg-dark opacity-25 round">
+                                    <div class="col-12 col-lg-6  p-4 tx-size text-white">
                                         
-                                        <h2 class="text-center text-md-left text-lg-left text-xl-left">
+                                        <h2 class="text-center text-md-left text-lg-left text-xl-left ">
                                         Does your company require you to improve your logistics performance, but you can't find enough technical resources in the market to carry this out?
                                         <br>
                                         Is budget an issue, and you need expert talents with convient costs?
@@ -40,7 +40,7 @@
                                         of freight.
                                         </p>
                                     </div>
-                                    <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center bg-light rounded-3">
+                                    <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center text-white">
                                         <form name="contact" data-netlify="true" data-netlify-honeypot="bot-field" method="POST">
                                            <input type="hidden" name="form-name" value="contact" />
                                             <h2 class="text-center text-md-left text-lg-left text-xl-left">
@@ -53,7 +53,7 @@
                                            <label for="">Leave a Message</label>
                                            <textarea class="form-control mb-3" rows="3" placeholder="Enter your message" style="resize:none" name="message"></textarea>
                                            
-                                           <button type="submit" class="btn btn-outline-dark btn-lg w-100  mb-3">Send</button>
+                                           <button type="submit" class="btn btn-outline-light btn-lg w-100  mb-3">Send</button>
                                         </form>
                                     </div>
                                 </div>
