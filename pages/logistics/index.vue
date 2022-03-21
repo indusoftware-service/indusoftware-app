@@ -1,18 +1,11 @@
 <template>
     <div :style="image">
-        <b-navbar toggleable="lg" type="dark" class="bg-custom shadow fixed-top">
-            <b-navbar-toggle target="nav-text-collapse"></b-navbar-toggle>
-
-            <b-navbar-brand href="#" class="ml-lg-5">
-                <img src="/images/logoIndu.png" width="180" height="48" class="d-inline-block" alt="induLogo" />
-            </b-navbar-brand>
-        </b-navbar>
-        <main id="home" class="w-100 mt-5">
+        <main id="home" class="w-100">
             <!-- BANNER -->
             <div class="d-flex justify-content-center align-self-center">
                 <div class="w-75">
                     <div
-                        class="row d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row justify-content-center align-items-center my-5">
+                        class="row d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row justify-content-center align-items-center my-7">
                         <div
                             class="p-0 col-12 col-sm-10 col-md-5 col-lg-5 h-100 d-flex flex-column align-items-center align-items-sm-center align-items-md-start">
 
@@ -24,6 +17,7 @@
                                         
                                         <h2 class="text-center text-md-left text-lg-left text-xl-left ">
                                         Does your company require you to improve your logistics performance, but you can't find enough technical resources in the market to carry this out?
+                                        <br>
                                         <br>
                                         Is budget an issue, and you need expert talents with convient costs?
                                         </h2>
@@ -44,7 +38,7 @@
                                         <form name="contact" data-netlify="true" data-netlify-honeypot="bot-field" method="POST">
                                            <input type="hidden" name="form-name" value="contact" />
                                             <h2 class="text-center text-md-left text-lg-left text-xl-left">
-                                                <span class="subtitle-bar">Contact us for a personalized proposal</span>
+                                                <span class="subtitle-bar">Contact us for a personalized proposal !</span>
                                             </h2>
                                            <label for="" class="mt-3">Your Name</label>
                                            <input type="text" class="form-control mb-3" placeholder="Name" aria-label="Name" name="name">
