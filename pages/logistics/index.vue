@@ -22,16 +22,9 @@
                                         Is budget an issue, and you need expert talents with convient costs?
                                         </h2>
                                         <p class="pt-3 text-center text-md-left">
-                                        A logistics software development company like <b>induSoftware</b> has the experience to
-                                        work with you to optimize every process and facilitate the implementation and
-                                        integration of custom technologies, no matter what your requirements or
-                                        industry.
-                                        <br>
-                                        <br>
-                                        Whatever solutions you need, whether apps or a content management system, we
-                                        will help to take the workload off you and your enterprise’s shoulders and
-                                        improve efficiency, as well as facilitate optimization of tracking and shipping
-                                        of freight.
+                                        A logistics software development agency like <b>induSoftware</b> has the experience to work with you to optimize every process 
+                                        and facilitate the implementation and integration of custom technologies. 
+                                        We are the key partner to take the workload off you and your enterprise’s shoulders.
                                         </p>
                                     </div>
                                     <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center text-white">
