@@ -28,18 +28,17 @@
                                         </p>
                                     </div>
                                     <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center text-white">
-                                        <form name="contact" data-netlify="true" data-netlify-honeypot="bot-field" method="POST">
+                                        <form name="contact" data-netlify="true" data-netlify-honeypot="bot-field" method="POST" class="was-validated">
                                            <input type="hidden" name="form-name" value="contact" />
                                             <h2 class="text-center text-md-left text-lg-left text-xl-left">
                                                 <span class="subtitle-bar">Contact us for a personalized proposal !</span>
                                             </h2>
                                            <label for="" class="mt-3">Your Name</label>
-                                           <input type="text" class="form-control mb-3" placeholder="Name" aria-label="Name" name="name">
+                                           <input type="text" class="form-control mb-3" placeholder="Name" aria-label="Name" name="name" required>
                                            <label for="">Your Email</label>
-                                           <input type="email" class="form-control mb-3" placeholder="Email" aria-label="Email" name="email">
+                                           <input type="email" class="form-control mb-3" placeholder="Email" aria-label="Email" name="email" required>
                                            <label for="">Leave a Message</label>
-                                           <textarea class="form-control mb-3" rows="3" placeholder="Enter your message" style="resize:none" name="message"></textarea>
-                                           
+                                           <textarea class="form-control mb-3" rows="3" placeholder="Enter your message" style="resize:none" name="message" required></textarea>
                                            <button type="submit" class="btn btn-outline-light btn-lg w-100  mb-3">Send</button>
                                         </form>
                                     </div>
@@ -123,6 +122,11 @@
 <script>
     import bikeImg from "assets/contenedores.jpg";
     export default {
+        head() {
+            return {
+                title: 'induSoftware | Logistics'
+            }
+        },
         data() {
             return {
             image: { backgroundImage: `url(${bikeImg})`, backgroundRepeat: "no-repeat", backgroundSize: "cover", position:"relative"},
