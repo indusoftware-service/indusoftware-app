@@ -28,17 +28,26 @@
                                         </p>
                                     </div>
                                     <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center text-white">
-                                        <form name="contact" data-netlify="true" data-netlify-honeypot="bot-field" method="POST" class="was-validated">
+                                        <form name="contact" data-netlify="true" data-netlify-honeypot="bot-field" method="POST" class="requires-validation" novalidate>
                                            <input type="hidden" name="form-name" value="contact" />
                                             <h2 class="text-center text-md-left text-lg-left text-xl-left">
                                                 <span class="subtitle-bar">Contact us for a personalized proposal !</span>
                                             </h2>
-                                           <label for="" class="mt-3">Your Name</label>
-                                           <input type="text" class="form-control mb-3" placeholder="Name" aria-label="Name" name="name" required>
-                                           <label for="">Your Email</label>
-                                           <input type="email" class="form-control mb-3" placeholder="Email" aria-label="Email" name="email" required>
-                                           <label for="">Leave a Message</label>
-                                           <textarea class="form-control mb-3" rows="3" placeholder="Enter your message" style="resize:none" name="message" required></textarea>
+                                           <div>
+                                            <label for="" class="mt-3">Your Name</label>
+                                            <input type="text" class="form-control mb-3" placeholder="Name" aria-label="Name" name="name" required>
+                                            <div class="invalid-feedback">Name field cannot be blank</div>
+                                           </div>
+                                           <div>
+                                            <label for="">Your Email</label>
+                                            <input type="email" class="form-control mb-3" placeholder="Email" aria-label="Email" name="email" required>
+                                            <div class="invalid-feedback">Email field cannot be blank</div>
+                                           </div>
+                                           <div>
+                                            <label for="">Leave a Message</label>
+                                            <textarea class="form-control mb-3" rows="3" placeholder="Enter your message" style="resize:none" name="message" required></textarea>
+                                            <div class="invalid-feedback mb-3">Message field cannot be blank</div>
+                                           </div>
                                            <button type="submit" class="btn btn-outline-light btn-lg w-100  mb-3">Send</button>
                                         </form>
                                     </div>
@@ -131,6 +140,20 @@
             return {
             image: { backgroundImage: `url(${bikeImg})`, backgroundRepeat: "no-repeat", backgroundSize: "cover", position:"relative"},
             };
+        },
+        mounted(){
+            const forms = document.querySelectorAll('.requires-validation')
+            Array.from(forms)
+            .forEach(function (form) {
+                form.addEventListener('submit', function (event) {
+                if (!form.checkValidity()) {
+                    event.preventDefault()
+                    event.stopPropagation()
+                }
+
+                form.classList.add('was-validated')
+                }, false)
+            })
         }
     };
 </script>
