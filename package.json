@@ -9,11 +9,13 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/gtm": "^2.4.0",
     "@nuxtjs/pwa": "^3.0.0-beta.20",
     "bootstrap": "^4.5.0",
     "bootstrap-vue": "^2.15.0",
     "cookie-universal-nuxt": "^2.1.4",
     "nuxt": "^2.14.0",
+    "nuxt-facebook-pixel-module": "^1.5.0",
     "vue-gtag": "^1.16.1",
     "vue-i18n": "^8.20.0"
   },

@@ -17,7 +17,7 @@ export default {
   head: {
     title: 'induSoftware | Creative Teams',
     script: [
-      //{ type: 'text/javascript', src:'//js.hs-scripts.com/8219400.js', body: true, async: true}
+      
     ],
     meta: [
       { charset: 'utf-8' },
@@ -59,8 +59,21 @@ export default {
     // Doc: https://bootstrap-vue.js.org
     'bootstrap-vue/nuxt',
     '@nuxtjs/pwa',
-    'cookie-universal-nuxt'
+    'cookie-universal-nuxt',
+    'nuxt-facebook-pixel-module',
+    '@nuxtjs/gtm',
   ],
+  facebook: {
+    /* module options */
+    track: 'PageView',
+    pixelId: '1033244960878250',
+    autoPageView: true,
+    disabled: false
+  },
+  gtm: {
+    id: 'GTM-W7M58D5', // Used as fallback if no runtime config is provided
+    enabled: true
+  },
   /*
   ** Build configuration
   ** See https://nuxtjs.org/api/configuration-build/
