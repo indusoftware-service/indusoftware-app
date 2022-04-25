@@ -157,7 +157,7 @@
                             Our Skills
                           </h3>
                         </div>
-                        <div class="underscore"></div>
+                        <div class="underscore_logistic"></div>
                         <div
                           class="
                             d-flex
@@ -254,7 +254,7 @@
                             Our Clients
                           </h3>
                         </div>
-                        <div class="underscore"></div>
+                        <div class="underscore_logistic"></div>
                         <div
                           class="
                             d-flex
