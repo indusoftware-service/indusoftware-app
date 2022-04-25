@@ -28,6 +28,15 @@
               <div class="w-100 p-3">
                 <div class="div-form">
                   <div class="col-12 col-lg-6 p-4 tx-size text-white">
+                    <div class="pb-4" >
+                        <img
+                        src="/images/logoIndu.png"
+                        width="180"
+                        height="48"
+                        class="d-inline-block"
+                        alt="induLogo"
+                        /> 
+                    </div>
                     <h2
                       class="text-center text-md-left text-lg-left text-xl-left"
                     >
@@ -47,6 +56,7 @@
                       justify-content-center
                       align-items-center
                       text-white
+                      pt-4
                     "
                   >
                     <form
@@ -58,13 +68,15 @@
                       novalidate
                     >
                       <input type="hidden" name="form-name" value="contact" />
+
                       <h2
                         class="
                           text-center text-md-left text-lg-left text-xl-left
                         "
                       >
+                      
                         <span class="subtitle-bar"
-                          >Contact us for a personalized proposal !</span
+                          >Contact Us and  Meet the Team</span
                         >
                       </h2>
                       <div>
@@ -387,17 +399,31 @@
                 </a>
               </div>
               <div>
-                <img src="" alt="" /><span
-                  class="text-white"
-                  style="font-size: 0.9em"
-                  >Washington Office: +1 703 953 4286</span
+                <a
+                  href="https://api.whatsapp.com/send?phone=17039534286&text=Hi%20I%20want%20to%20contact%20you"
                 >
+                    <img src="" alt="" /><span
+                    class="text-white"
+                    style="font-size: 0.9em"
+                    >Washington Office: +1 703 953 4286</span
+                    >
+                </a>
+                <a
+                  href="https://api.whatsapp.com/send?phone=17039534286&text=Hi%20I%20want%20to%20contact%20you"
+                >
+                  <img
+                    class="img img-fluid"
+                    src="/images/whatsapp.svg"
+                    alt="whatsapp indusoftware"
+                    style="width: 18px"
+                  />
+                </a>
               </div>
               <div>
                 <img src="" alt="" /><span
                   class="text-white"
                   style="font-size: 0.9em"
-                  >contacto@induSoftware.com.ar</span
+                  ><a href="mailto:contacto@induSoftware.com.ar" class="text-white">contacto@induSoftware.com.ar</a></span
                 >
               </div>
             </div>
