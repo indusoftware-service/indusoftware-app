@@ -296,7 +296,7 @@
                             target="_blank"
                             href="https://www.evergreen-marine.com//"
                             ><div class="img-container">
-                                <img class="img-client" src="images/evergreen2.png" alt="">
+                                <img class="img-client" src="~/assets/evergreen-white.png" alt="">
                                 </div
                           ></a>
                            <a
@@ -308,7 +308,7 @@
                             target="_blank"
                             href="https://www.evergreen-marine.com//"
                             ><div class="img-container">
-                                <img class="img-client" src="images/calico2.png" alt="">
+                                <img class="img-client" src="~/assets/calico-white.png" alt="">
                                 </div
                           ></a>
                            <a
@@ -320,7 +320,7 @@
                             target="_blank"
                             href="https://www.evergreen-marine.com//"
                             ><div class="img-container">
-                                <img class="img-client" src="images/maritima2.png" alt="">
+                                <img class="img-client" src="~/assets/maritima-white.png" alt="">
                                 </div
                           ></a>
                         </div>
