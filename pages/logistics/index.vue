@@ -185,7 +185,7 @@
                         >
                           <div class="text-white p-2 flex-fill text-center">
                             <object
-                              data="/images/backend.svg"
+                              data="/images/backend2.svg"
                               width="60"
                               height="60"
                             ></object>

@@ -331,33 +331,62 @@
             </h5>
             <div class="py-4">
               <div>
-                <a href="https://api.whatsapp.com/send?phone=541140263809&text=Hi%20I%20want%20to%20contact%20you">
-                  <img src="" alt="" /><span
-                    class="text-white"
-                    style="font-size: 0.9em;"
-                    >Buenos Aires HQ: +54 11 4026 3809</span>
-                </a>
-                <a href="https://api.whatsapp.com/send?phone=541140263809&text=Hi%20I%20want%20to%20contact%20you">
-                <img
-                  class="img img-fluid"
-                  src="/images/whatsapp.svg"
-                  alt="whatsapp indusoftware"
-                  style="width: 18px;"
-                />
-                </a>  
-              </div>
-              <div>
-                <img src="" alt="" /><span
-                  class="text-white"
-                  style="font-size: 0.9em;"
-                  >Washington Office: +1 703 953 4286</span
+                <a
+                  href="https://api.whatsapp.com/send?phone=541140263809&text=Hi%20I%20want%20to%20contact%20you"
                 >
+                    <div class="d-flex flex-column flex-md-column flex-lg-row flex-xl-row ">
+                        <div>
+                        <span
+                            class="text-white"
+                            style="font-size: 0.9em"
+                            >Buenos Aires HQ:</span
+                        >
+                        </div>
+                        <div>
+                            <span
+                            class="text-white pl-1"
+                            style="font-size: 0.9em"
+                            > +54 11 4026 3809
+                            </span >
+                            <img
+                            class="img img-fluid"
+                            src="/images/whatsapp.svg"
+                            alt="whatsapp indusoftware"
+                            style="width: 18px"
+                        />
+                        </div>
+                    </div>
+                </a>
+              </div>
+              <div>
+                <a
+                  href="https://api.whatsapp.com/send?phone=17035894236&text=Hi%20I%20want%20to%20contact%20you"
+                >
+                    <div class="d-flex flex-column flex-md-column flex-lg-row flex-xl-row ">
+                        <div>
+                        <span class="text-white" style="font-size: 0.9em">
+                            Washington Office: 
+                        </span >
+                        </div>
+                        <div>
+                            <span class="pl-1 text-white" style="font-size: 0.9em">
+                                +1 703 589 4236
+                            </span>
+                            <img
+                                class="img img-fluid"
+                                src="/images/whatsapp.svg"
+                                alt="whatsapp indusoftware"
+                                style="width: 18px"
+                            />
+                        </div>
+                    </div>
+                </a>
               </div>
               <div>
                 <img src="" alt="" /><span
                   class="text-white"
                   style="font-size: 0.9em;"
-                  >contacto@induSoftware.com.ar</span
+                  ><a href="mailto:contacto@induSoftware.com.ar" class="text-white">contacto@induSoftware.com.ar</a></span
                 >
               </div>
             </div>
