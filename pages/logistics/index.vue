@@ -37,17 +37,17 @@
                         alt="induLogo"
                         /> 
                     </div>
-                    <h2
+                    <h3
                       class="text-center text-md-left text-lg-left text-xl-left"
                     >
-                      Does your company require you to improve your logistics
-                      performance, but you can't find enough technical resources
-                      in the market to carry this out?
+                      Tired of having problems with the logistics development of your company? The technical resources available in the market do not provide you with a solution?
                       <br />
                       <br />
-                      Is budget an issue, and you need expert talents with
-                      convenient costs?
-                    </h2>
+                      induSoftware is a logistics software development agency that works on the implementation and integration of custom technologies.
+                      <br />
+                      <br />
+                      Our professionals can offer you personalized services according to your needs and budget. 
+                    </h3>
                   </div>
                   <div
                     class="
