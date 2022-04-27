@@ -199,6 +199,10 @@ h3{
   h2 {
   font-size: 18px;
   }
+
+  h3 {
+    font-size: 15px;
+  }
    
   p {
   font-size: 13px;
@@ -206,4 +210,20 @@ h3{
   .img-container{
     width: 100%;
   }     
+}
+
+
+
+
+/* If the screen size is 1200px wide or more, set the font-size to 80px */
+@media (min-width: 800px) {
+  .responsive-text {
+    font-size: 25px;
+  }
+}
+/* If the screen size is smaller than 1200px, set the font-size to 80px */
+@media (max-width: 799.98px) {
+  .responsive-text {
+    font-size: 15px;
+  }
 }

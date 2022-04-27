@@ -38,7 +38,7 @@
                         /> 
                     </div>
                     <h3
-                      class="text-center text-md-left text-lg-left text-xl-left"
+                      class="text-center text-md-left text-lg-left text-xl-left responsive-text" 
                     >
                       Tired of having problems with the logistics development of your company? The technical resources available in the market do not provide you with a solution?
                       <br />
