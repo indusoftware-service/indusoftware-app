@@ -495,7 +495,7 @@ export default {
           src: '//js.hs-scripts.com/8219400.js',
         },
       ],
-      title: 'induSoftware | Logistics',
+      title: 'induSoftware | Entrepreneur',
     }
   },
   data() {
