@@ -43,7 +43,7 @@
                       We've been there. Not just as consultants of product development for more than 20 years, but also as entreprenuers and founders of our own projects. And we know the pain points in the life of an entrepreneur.
                       <br />
                       <br />
-                      Entreprenuers have the idea and the business background, but they have to deal with a lot on their plates besides the development of the product itself.
+                      Entrepreneurs have the idea and the business background, but they have to deal with a lot on their plates besides the development of the product itself.
                       <br />
                       <br />
                       Also, some ideas are more developed than others, and not all have found the product market fit yet... but we are here to help. 
