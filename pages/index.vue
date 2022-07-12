@@ -265,14 +265,21 @@
           <a
             class="col-5 col-sm-6 col-md-4 col-lg-3 col-xl-3 my-4 px-0 px-sm-1 px-md-2 px-lg-4 px-xl-4"
             target="_blank"
-            href="https://www.vi-datec.com/"
-            ><div class="client2"></div
+            href="https://www.evergreen-marine.com/"
+            ><div class="client6"></div
           ></a>
+
           <a
             class="col-5 col-sm-6 col-md-4 col-lg-3 col-xl-3 my-4 px-0 px-sm-1 px-md-2 px-lg-4 px-xl-4"
             target="_blank"
             href="http://www.calicosa.com.ar/"
             ><div class="client3"></div
+          ></a>
+          <a
+            class="col-5 col-sm-6 col-md-4 col-lg-3 col-xl-3 my-4 px-0 px-sm-1 px-md-2 px-lg-4 px-xl-4"
+            target="_blank"
+            href="https://www.vi-datec.com/"
+            ><div class="client2"></div
           ></a>
           <a
             class="col-5 col-sm-6 col-md-4 col-lg-3 col-xl-3 my-4 px-0 px-sm-1 px-md-2 px-lg-4 px-xl-4"
@@ -286,17 +293,12 @@
             href=""
             ><div class="client5"></div
           ></a>
+
           <a
             class="col-5 col-sm-6 col-md-4 col-lg-3 col-xl-3 my-4 px-0 px-sm-1 px-md-2 px-lg-4 px-xl-4"
             target="_blank"
-            href="http://www.fogaba.com.ar/"
-            ><div class="client6"></div
-          ></a>
-          <a
-            class="col-5 col-sm-6 col-md-4 col-lg-3 col-xl-3 my-4 px-0 px-sm-1 px-md-2 px-lg-4 px-xl-4"
-            target="_blank"
-            href="https://www.allianz.es/"
-            ><div class="client8"></div
+            href="http://www.crea.org.ar/"
+            ><div class="client7"></div
           ></a>
         </div>
       </div>

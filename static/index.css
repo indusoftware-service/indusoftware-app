@@ -92,7 +92,7 @@ h3{
   height: 100px;
 }
 .client6{
-  background-image: url(images/fobaga.png);
+  background-image: url(images/Evergreen_Logo.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position:center;
@@ -100,7 +100,7 @@ h3{
   height: 100px;
 }
 .client7{
-  background-image: url(images/telecom.png);
+  background-image: url(images/logo-crea.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position:center;
@@ -174,7 +174,7 @@ h3{
   font-size: 1.2em;
 }
 
-.round{
+.round{ 
   border-radius: 20px;
 }
 
