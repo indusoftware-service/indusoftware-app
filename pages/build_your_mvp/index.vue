@@ -330,11 +330,60 @@
                               px-0 px-sm-1 px-md-2 px-lg-4 px-xl-4
                             "
                             target="_blank"
-                            href="https://www.evergreen-marine.com//"
+                            href="https://www.evergreen-marine.com/"
                             ><div class="img-container">
                                 <img class="img-client" src="~/assets/maritima-white.png" alt="">
                                 </div
                           ></a>
+                                                     <a
+                            class="
+                              col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3
+                              my-4
+                              px-0 px-sm-1 px-md-2 px-lg-4 px-xl-4
+                            "
+                            target="_blank"
+                            href="https://www.vi-datec.com/"
+                            ><div class="img-container">
+                                <img class="img-client2" src="~/assets/vidatec_white.png" alt="">
+                                </div
+                          ></a>
+                          </a>
+                          <a
+                            class="
+                              col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3
+                              my-4
+                              px-0 px-sm-1 px-md-2 px-lg-4 px-xl-4
+                            "
+                            target="_blank"
+                            href="https://www.vi-datec.com/"
+                            ><div class="img-container">
+                                <img class="img-client3" src="~/assets/bp4_white.png" alt="">
+                                </div
+                          ></a>
+                          <a
+                            class="
+                              col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3
+                              my-4
+                              px-0 px-sm-1 px-md-2 px-lg-4 px-xl-4
+                            "
+                            target="_blank"
+                            href=""
+                            ><div class="img-container">
+                                <img class="img-client3" src="~/assets/detechtus_white.png" alt="">
+                                </div
+                          ></a>
+                         <!-- <a
+                            class="
+                              col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3
+                              my-4
+                              px-0 px-sm-1 px-md-2 px-lg-4 px-xl-4
+                            "
+                            target="_blank"
+                            href=""
+                            ><div class="img-container">
+                                <img class="img-client3" src="~/assets/brainsys_white.png" alt="">
+                                </div
+                          ></a> -->
                         </div>
                       </div>
                     </div>
