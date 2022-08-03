@@ -5,6 +5,9 @@
   "navbar_item_4": "Contacto",
   "about": "Sobre Nosotros",
   "about_text": "induSoftware es una startup argentina de servicios de desarrollo de software fundada en el año 2014. Tiene su casa matriz en CABA (Buenos Aires, ARG), oficina comercial en Washington DC (USA) y centros de desarrollo en Posadas (Misiones, ARG) y San Salvador de Jujuy (Jujuy, ARG). Con un equipo interdisciplinario con más de 15 años de experiencia en el mundo de TI (entre desarrolladores full-stack, analistas de negocios, arquitectos de software, gerentes de proyectos y diseñadores de UI/UX), induSoftware está dedicada a brindar soluciones a los desafíos de negocios utilizando herramientas de ultima generación y la creatividad, en tiempos donde la tecnología de punta es la principal diferencial competitiva.",
+  "about_text_1":"induSoftware es una startup argentina de servicios de desarrollo de software fundada en el año 2014. Tiene su casa matriz en CABA (Buenos Aires, ARG), representaciones comerciales en Washington DC (USA), Los Ángeles CA (USA) y centros de desarrollo en Posadas (Misiones, ARG) y San Salvador de Jujuy (Jujuy, ARG).",
+  "about_text_2":"Tiene su casa matriz en CABA (Buenos Aires, ARG), representaciones comerciales en Washington DC (USA), Los Ángeles CA (USA) y centros de desarrollo en Posadas (Misiones, ARG) y San Salvador de Jujuy (Jujuy, ARG).",
+  "about_text_3":"Con un equipo interdisciplinario con más de 15 años de experiencia en el mundo de TI (entre desarrolladores full-stack, analistas de negocios, arquitectos de software, gerentes de proyectos y diseñadores de UI/UX), induSoftware está dedicada a brindar soluciones a los desafíos de negocios utilizando herramientas de ultima generación y la creatividad, en tiempos donde la tecnología de punta es la principal diferencial competitiva.",
   "mission": "Nuestra Misión",
   "mission_text_1": "Nuestra estrategia de desarrollo global en conjunto con nuestros talentos experimentados nos permite innovar mientras construimos, implementando un modelo de negocio operativo que es práctico y eficiente.",
   "mission_text_2": "Nuestra misión es ayudar a nuestros clientes a ser organizaciones mas rentables, transformando las necesidades de las empresas en ventajas competitivas mediante el uso de las últimas tecnologías. Ésto nos permite crear soluciones empresariales de punta a punta que mejorarán la toma de decisiones.",
@@ -24,5 +27,17 @@
   "clients": "Nuestros Clientes",
   "office": "Nuestras Oficinas",
   "contact": "Contacto",
-  "follow": "Seguinos"
+  "follow": "Seguinos",
+  "form_title":"Contactanos y conocé el equipo",
+  "form_name":"Tu Nombre",
+  "form_name_placeholder":"Nombre",
+  "form_name_error":"El campo nombre no puede estar vacio",
+  "form_email":"Tu Email",
+  "form_email_placeholder":"Email",
+  "form_email_error":"El campo email no puede estar vacio",
+  "form_message":"Dejanos un mensaje",
+  "form_message_placeholder":"Ingresa un mensaje",
+  "form_message_error":"El campo mensaje no puede estar vacio",
+  "form_button":"Enviar",
+  "success_message":"Mensaje enviado correctamente"
 }

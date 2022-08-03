@@ -368,8 +368,10 @@
                 >San Salvador de Jujuy, Argentina (DC)</span
               ><br />
               <span class="text-white" style="font-size: 0.9em"
-                >Washington DC, USA (CO)</span
-              >
+                >Washington DC, USA (CR)</span
+              ><br/>
+              <span class="text-white" style="font-size: 0.9em;"
+                >Los Ángeles CA, USA (CR)</span>
             </div>
           </div>
           <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
@@ -482,9 +484,15 @@
       </div>
     </footer>
     <!-- FOOTER -->
+    <a href="https://api.whatsapp.com/send?phone=541140263809&text=Hi%20I%20want%20to%20contact%20you" class="floatWapp" target="_blank">
+     <i class="fa fa-whatsapp my-floatWapp"></i>
+    </a>
   </div>
 </template>
 
+<style scoped>
+  @import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css';
+</style>
 <script>
 import bikeImg from 'assets/contenedores.jpg'
 export default {

@@ -71,8 +71,14 @@
               <h3 class="text-white">
                 <span class="subtitle-bar">{{ $t('about') }}</span>
               </h3>
-              <p class="text-white pt-3 text-center text-md-left">
-                {{ $t('about_text') }}
+              <p class="text-white pt-1 text-center text-md-left">
+                {{ $t('about_text_1') }}
+              </p>
+              <!--<p class="text-white pt-1 text-center text-md-left">
+                {{ $t('about_text_2') }}
+              </p>-->
+              <p class="text-white pt-1  text-center text-md-left">
+                {{ $t('about_text_3') }}
               </p>
             </div>
           </div>
@@ -303,6 +309,119 @@
         </div>
       </div>
     </div>
+    
+    
+
+
+    <div class="d-flex justify-content-center align-self-center">
+      <div class="w-75">
+        <div class="row d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row
+          justify-content-center align-items-center my-7">
+          <div class="container-fluid">
+            <div class="w-100 p-3">
+              <div class="div-form-main">
+
+
+                <div class="col-12 align-self-center col-lg-6 p-4">
+                      <!-- CLUTCH -->
+                      <div>
+                          <div class="clutch-widget" data-nofollow="true" data-url="https://widget.clutch.co" data-widget-type="7" data-height="65" data-expandifr="true" data-clutchcompany-id="1257831"></div>
+                      </div>
+                </div>
+
+                <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center pt-4">
+                      <!-- FORM -->
+                      <div id="contact" class="w-100 container-fluid d-flex justify-content-center"> 
+                        <div class="w-75 d-flex flex-column align-items-center align-items-md-end">
+                          <form
+                                name="contact_form"
+                                data-netlify="true"
+                                data-netlify-honeypot="bot-field"
+                                method="POST"
+                                acction="/success"
+                                @submit.prevent="onSubmit"
+                                class="requires-validation"
+                                novalidate
+                              >
+                                <input type="hidden" name="form-name" value="contact_form" />
+
+                                <h4 class="text-center text-md-left text-lg-left text-xl-left">
+                                  <span class="subtitle-bar">{{ $t('form_title') }}</span>
+                                </h4>
+                                <div>
+                                  <label for="" class="mt-3">{{ $t('form_name') }}</label>
+                                  <input
+                                    type="text"
+                                    class="form-control mb-2"
+                                    :placeholder="$t('form_name_placeholder')"
+                                    aria-label="Name"
+                                    name="name"
+                                    required
+                                  />
+                                  <div class="invalid-feedback">
+                                    {{ $t('form_name_error') }}
+                                  </div>
+                                </div>
+                                <div>
+                                  <label for="">{{ $t('form_email') }}</label>
+                                  <input
+                                    type="email"
+                                    class="form-control mb-2"
+                                    :placeholder="$t('form_email_placeholder')"
+                                    aria-label="Email"
+                                    name="email"
+                                    required
+                                  />
+                                  <div class="invalid-feedback">
+                                    {{ $t('form_email_error') }}
+                                  </div>
+                                </div>
+                                <div>
+                                  <label for="">{{ $t('form_message') }}</label>
+                                  <textarea
+                                    class="form-control mb-2"
+                                    rows="3"
+                                    :placeholder="$t('form_message_placeholder')"
+                                    style="resize: none"
+                                    name="message"
+                                    required
+                                  ></textarea>
+                                  <div class="invalid-feedback mb-3">
+                                    {{ $t('form_message_error') }}
+                                  </div>
+                                </div>
+                                <button
+                                  type="submit"
+                                  class="btn btn-outline-light btn-lg btn-dark w-100 mb-3"
+                                >
+                                  {{ $t('form_button') }}
+                                </button>
+                                <p style="border-style:dotted; border-color:#28a745" align="center" v-if="successMessage">{{ successMessage }}</p>
+                            </form>
+                          </div>  
+                      </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BORRAR  
+    <div>
+       <form id="testform" method="POST" action="/success" @submit.prevent="onSubmit" novalidate>
+         <input type="text" name="name" class="validate-required" required>
+          <div class="invalid-feedback">
+             invalid input
+          </div>
+         <button type="submit">Enviar</button>
+         <p v-if="successMessage">{{ successMessage }}</p>
+       </form>
+    </div>
+     BORRAR END -->
 
     <!-- FOOTER -->
     <img class="w-100" src=/images/curve-footer.svg alt />
@@ -324,7 +443,9 @@
                 >San Salvador de Jujuy, Argentina (DC)</span
               ><br />
               <span class="text-white" style="font-size: 0.9em;"
-                >Washington DC, USA (CO)</span>
+                >Washington DC, USA (CR)</span><br/>
+              <span class="text-white" style="font-size: 0.9em;"
+                >Los Ángeles CA, USA (CR)</span>  
             </div>
           </div>
           <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
@@ -437,9 +558,15 @@
       </div>
     </footer>
     <!-- FOOTER -->
+    <a href="https://api.whatsapp.com/send?phone=541140263809&text=Hi%20I%20want%20to%20contact%20you" class="floatWapp" target="_blank">
+     <i class="fa fa-whatsapp my-floatWapp"></i>
+    </a>
   </div>
-</template>
 
+</template>
+<style scoped>
+  @import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css';
+</style>
 <script>
 export default {
   mounted() {
@@ -450,12 +577,16 @@ export default {
       document.getElementById('btn-eng').classList.toggle('btn-lang--active')
     }
   },
+  data() {
+    return {
+      successMessage:null
+    }
+  },
   head() {
     return {
       script: [
-          {
-            src: '//js.hs-scripts.com/8219400.js'
-          }
+          {src: '//widget.clutch.co/static/js/widget.js'},
+          {src: '//js.hs-scripts.com/8219400.js'}
       ],
     }
   },  
@@ -483,6 +614,32 @@ export default {
       window.location.href = url;
       //location.reload()
     },
+
+    async onSubmit(event) {
+        //https://gregives.co.uk/blog/nuxt-netlify-forms-and-recaptcha/
+        // Submit the form to Netlify
+      if(!event.target.checkValidity()) {
+        event.target.classList.add('was-validated');
+      }
+      else {
+        try{ const response = await fetch('/', {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/x-www-form-urlencoded'
+                },
+                body: new URLSearchParams(new FormData(event.target)).toString()
+              })
+            if (!response.ok) {
+                throw new Error('Response was not successful')
+            }
+            this.successMessage = this.$t('success_message');
+            event.target.classList.remove('was-validated')
+            event.target.reset();
+        } catch {
+          this.successMessage = 'Something went wrong, please try again.'
+        }
+      } 
+    }
   },
 }
 </script>

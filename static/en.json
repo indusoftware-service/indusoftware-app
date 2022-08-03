@@ -5,6 +5,9 @@
   "navbar_item_4": "Contact Us",
   "about": "About Us",
   "about_text": "induSoftware is an Argentinian start-up company of software development services founded in 2014. It has its HQ in CABA (Buenos Aires, ARG), commercial offices in Washington DC (USA), and delivery centers in Posadas (Misiones, ARG) and San Salvador de Jujuy (Jujuy, ARG). With an interdisciplinary team with 15+ years of experience in the IT world (among full stack developers, business analysts, software architects, project managers and UI/UX designers), induSoftware is fully dedicated to bring solutions to business challenges using state of the art technologies and creativity in times when hi-tech is the main competitive difference.",
+  "about_text_1":"induSoftware is an Argentinian start-up company of software development services founded in 2014. It has its HQ in CABA (Buenos Aires, ARG), commercial representation in Washington DC (USA) and Los Angeles CA (USA), and delivery centers in Posadas (Misiones, ARG) and San Salvador de Jujuy (Jujuy, ARG).",
+  "about_text_2":"It has its HQ in CABA (Buenos Aires, ARG), commercial representation in Washington DC (USA) and Los Angeles CA (USA), and delivery centers in Posadas (Misiones, ARG) and San Salvador de Jujuy (Jujuy, ARG).",
+  "about_text_3":"With an interdisciplinary team with 15+ years of experience in the IT world (among full stack developers, business analysts, software architects, project managers and UI/UX designers), induSoftware is fully dedicated to bring solutions to business challenges using state of the art technologies and creativity in times when hi-tech is the main competitive difference.",
   "mission": "Our Mission",
   "mission_text_1": "Our global delivery strategy, together with our experienced talents, allow us to innovate while building and implementing with an operational business model that is both practical and efficient.",
   "mission_text_2": "Our mission is to help our clients become more profitable organizations, transforming the needs of business into competitive advantages by using the latest technologies. This allows us to create end-to-end business solutions that improve decision making.",
@@ -24,6 +27,18 @@
   "clients": "Our Clients",
   "office": "Our Offices",
   "contact": "Contact",
-  "follow": "Follow Us"
+  "follow": "Follow Us",
+  "form_title":"Contact Us and  Meet the Team",
+  "form_name":"Your Name",
+  "form_name_placeholder":"Name",
+  "form_name_error":"Name field cannot be blank",
+  "form_email":"Your Email",
+  "form_email_placeholder":"Email",
+  "form_email_error":"Email field cannot be blank",
+  "form_menssage":"Leave a Message",
+  "form_message_placeholder":"Enter your message",
+  "form_message_error":"Message field cannot be blank",
+  "form_button":"Send",
+  "success_message":"Mensaje enviado correctamente"
 
   }
