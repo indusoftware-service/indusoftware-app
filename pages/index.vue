@@ -322,17 +322,17 @@
               <div class="div-form-main">
 
 
-                <div class="col-12 align-self-center col-lg-6 p-4">
+                <div class="col-12 align-self-center col-lg-6 p-0">
                       <!-- CLUTCH -->
                       <div>
                           <div class="clutch-widget" data-nofollow="true" data-url="https://widget.clutch.co" data-widget-type="7" data-height="65" data-expandifr="true" data-clutchcompany-id="1257831"></div>
                       </div>
                 </div>
 
-                <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center pt-4">
+                <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center pt-0 pt-sm-2">
                       <!-- FORM -->
                       <div id="contact" class="w-100 container-fluid d-flex justify-content-center"> 
-                        <div class="w-75 d-flex flex-column align-items-center align-items-md-end">
+                        <div class="w-100 w-sm-75 d-flex flex-column align-items-center align-items-md-end">
                           <form
                                 name="contact_form"
                                 data-netlify="true"
@@ -564,9 +564,7 @@
   </div>
 
 </template>
-<!--<style scoped>
-  @import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css';
-</style>-->
+
 <script>
 export default {
   mounted() {
