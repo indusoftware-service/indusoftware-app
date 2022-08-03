@@ -157,6 +157,7 @@
       </div>
       <img id="services" class="w-100" src=/images/curve-banner.svg alt />
     </main>
+    
     <div class="container-fluid d-flex justify-content-center">
       <div
         class="w-75 d-flex flex-column align-items-center align-items-md-start"
@@ -310,119 +311,82 @@
       </div>
     </div>
     
-    
-
-
-    <div class="d-flex justify-content-center align-self-center">
-      <div class="w-auto">
-        <div class="row d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row
-          justify-content-center align-items-center my-7">
-          <div class="container-fluid">
-            <div class="w-100">
-              <div class="div-form-main">
-
-
-                <div class="col-12 align-self-center col-lg-6 p-12">
-                      <!-- CLUTCH -->
-                      <div>
-                          <div class="clutch-widget" data-nofollow="true" data-url="https://widget.clutch.co" data-widget-type="7" data-height="60" data-expandifr="true" data-clutchcompany-id="1257831"></div>
-                      </div>
-                </div>
-
-                <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center pt-0 pt-sm-2">
-                      <!-- FORM -->
-                      <div id="contact" class="w-100 container-fluid d-flex justify-content-center"> 
-                        <div class="w-100 w-sm-75 d-flex flex-column align-items-center align-items-md-end">
-                          <form
-                                name="contact_form"
-                                data-netlify="true"
-                                data-netlify-honeypot="bot-field"
-                                method="POST"
-                                acction="/success"
-                                @submit.prevent="onSubmit"
-                                class="requires-validation"
-                                novalidate
-                              >
-                                <input type="hidden" name="form-name" value="contact_form" />
-
-                                <h4 class="text-center text-md-left text-lg-left text-xl-left">
-                                  <span class="subtitle-bar">{{ $t('form_title') }}</span>
-                                </h4>
-                                <div>
-                                  <label for="" class="mt-3">{{ $t('form_name') }}</label>
-                                  <input
-                                    type="text"
-                                    class="form-control mb-2"
-                                    :placeholder="$t('form_name_placeholder')"
-                                    aria-label="Name"
-                                    name="name"
-                                    required
-                                  />
-                                  <div class="invalid-feedback">
-                                    {{ $t('form_name_error') }}
-                                  </div>
-                                </div>
-                                <div>
-                                  <label for="">{{ $t('form_email') }}</label>
-                                  <input
-                                    type="email"
-                                    class="form-control mb-2"
-                                    :placeholder="$t('form_email_placeholder')"
-                                    aria-label="Email"
-                                    name="email"
-                                    required
-                                  />
-                                  <div class="invalid-feedback">
-                                    {{ $t('form_email_error') }}
-                                  </div>
-                                </div>
-                                <div>
-                                  <label for="">{{ $t('form_message') }}</label>
-                                  <textarea
-                                    class="form-control mb-2"
-                                    rows="3"
-                                    :placeholder="$t('form_message_placeholder')"
-                                    style="resize: none"
-                                    name="message"
-                                    required
-                                  ></textarea>
-                                  <div class="invalid-feedback mb-3">
-                                    {{ $t('form_message_error') }}
-                                  </div>
-                                </div>
-                                <button
-                                  type="submit"
-                                  class="btn btn-outline-light btn-lg btn-dark w-100 mb-3"
-                                >
-                                  {{ $t('form_button') }}
-                                </button>
-                                <p style="border-style:dotted; border-color:#28a745" align="center" v-if="successMessage">{{ successMessage }}</p>
-                            </form>
-                          </div>  
-                      </div>
-                </div>
-
-
-              </div>
-            </div>
-          </div>
+    <div class="container-fluid d-flex flex-wrap justify-content-around">
+      <div class="align-self-center">
+        <!-- CLUTCH -->
+        <div>
+            <div class="clutch-widget" data-nofollow="true" data-url="https://widget.clutch.co" data-widget-type="7" data-height="60" data-expandifr="true" data-clutchcompany-id="1257831"></div>
         </div>
       </div>
-    </div>
 
-    <!-- BORRAR  
-    <div>
-       <form id="testform" method="POST" action="/success" @submit.prevent="onSubmit" novalidate>
-         <input type="text" name="name" class="validate-required" required>
-          <div class="invalid-feedback">
-             invalid input
-          </div>
-         <button type="submit">Enviar</button>
-         <p v-if="successMessage">{{ successMessage }}</p>
-       </form>
-    </div>
-     BORRAR END -->
+      <div >
+        <form
+              name="contact_form"
+              data-netlify="true"
+              data-netlify-honeypot="bot-field"
+              method="POST"
+              acction="/success"
+              @submit.prevent="onSubmit"
+              class="requires-validation"
+              novalidate
+            >
+              <input type="hidden" name="form-name" value="contact_form" />
 
+              <h4 class="text-center text-md-left text-lg-left text-xl-left">
+                <span class="subtitle-bar">{{ $t('form_title') }}</span>
+              </h4>
+              <div>
+                <label for="" class="mt-3">{{ $t('form_name') }}</label>
+                <input
+                  type="text"
+                  class="form-control mb-2"
+                  :placeholder="$t('form_name_placeholder')"
+                  aria-label="Name"
+                  name="name"
+                  required
+                />
+                <div class="invalid-feedback">
+                  {{ $t('form_name_error') }}
+                </div>
+              </div>
+              <div>
+                <label for="">{{ $t('form_email') }}</label>
+                <input
+                  type="email"
+                  class="form-control mb-2"
+                  :placeholder="$t('form_email_placeholder')"
+                  aria-label="Email"
+                  name="email"
+                  required
+                />
+                <div class="invalid-feedback">
+                  {{ $t('form_email_error') }}
+                </div>
+              </div>
+              <div>
+                <label for="">{{ $t('form_message') }}</label>
+                <textarea
+                  class="form-control mb-2"
+                  rows="3"
+                  :placeholder="$t('form_message_placeholder')"
+                  style="resize: none"
+                  name="message"
+                  required
+                ></textarea>
+                <div class="invalid-feedback mb-3">
+                  {{ $t('form_message_error') }}
+                </div>
+              </div>
+              <button
+                type="submit"
+                class="btn btn-outline-light btn-lg btn-dark w-100 mb-3"
+              >
+                {{ $t('form_button') }}
+              </button>
+              <p style="border-style:dotted; border-color:#28a745" align="center" v-if="successMessage">{{ successMessage }}</p>
+          </form>
+      </div>  
+    </div>
     <!-- FOOTER -->
     <img class="w-100" src=/images/curve-footer.svg alt />
     <footer id='contacto' class="bg-darker px-2">
