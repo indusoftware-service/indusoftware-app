@@ -539,10 +539,6 @@
   </div>
 </template>
 
-<style scoped>
-  @import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css';
-</style>
-
 <script>
 import bikeImg from 'assets/entreprenuer.jpg'
 export default {
@@ -552,6 +548,9 @@ export default {
         {
           src: '//js.hs-scripts.com/8219400.js',
         },
+      ],
+            link: [
+        {rel:"stylesheet", type:"text/css", href:'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'}
       ],
       title: 'induSoftware | Entrepreneur',
     }
