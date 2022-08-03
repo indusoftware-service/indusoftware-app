@@ -307,85 +307,95 @@
             href="http://www.crea.org.ar/"
             ><div class="client7"></div
           ></a>
+          
         </div>
       </div>
     </div>
     
-    <div class="container-fluid d-flex flex-wrap justify-content-around">
-      <div class="align-self-center">
-        <!-- CLUTCH -->
-        <div>
-            <div class="clutch-widget" data-nofollow="true" data-url="https://widget.clutch.co" data-widget-type="7" data-height="60" data-expandifr="true" data-clutchcompany-id="1257831"></div>
-        </div>
-      </div>
+        <hr class="mx-auto" style="width:50%; height:1px; background-color:#C6D936; margin-bottom:60px">    
 
-      <div >
-        <form
-              name="contact_form"
-              data-netlify="true"
-              data-netlify-honeypot="bot-field"
-              method="POST"
-              acction="/success"
-              @submit.prevent="onSubmit"
-              class="requires-validation"
-              novalidate
-            >
-              <input type="hidden" name="form-name" value="contact_form" />
+    <div class="container-fluid d-flex flex-wrap justify-content-around mt-4">
+         
+          <div class="align-self-center ml-0 mr-0 ml-sm-4 mr-sm-4">
+            <!-- CLUTCH -->
+            <div>
+                <div class="clutch-widget" data-nofollow="true" data-url="https://widget.clutch.co" data-widget-type="7" data-height="60" data-expandifr="true" data-clutchcompany-id="1257831"></div>
+            </div>
+          </div>
+          <div class="ml-0 mr-0 ml-sm-4 mr-sm-4" >
+            <form
+                  name="contact_form"
+                  data-netlify="true"
+                  data-netlify-honeypot="bot-field"
+                  method="POST"
+                  acction="/success"
+                  @submit.prevent="onSubmit"
+                  class="requires-validation"
+                  novalidate
+                >
+                  <input type="hidden" name="form-name" value="contact_form" />
 
-              <h4 class="text-center text-md-left text-lg-left text-xl-left">
-                <span class="subtitle-bar">{{ $t('form_title') }}</span>
-              </h4>
-              <div>
-                <label for="" class="mt-3">{{ $t('form_name') }}</label>
-                <input
-                  type="text"
-                  class="form-control mb-2"
-                  :placeholder="$t('form_name_placeholder')"
-                  aria-label="Name"
-                  name="name"
-                  required
-                />
-                <div class="invalid-feedback">
-                  {{ $t('form_name_error') }}
-                </div>
-              </div>
-              <div>
-                <label for="">{{ $t('form_email') }}</label>
-                <input
-                  type="email"
-                  class="form-control mb-2"
-                  :placeholder="$t('form_email_placeholder')"
-                  aria-label="Email"
-                  name="email"
-                  required
-                />
-                <div class="invalid-feedback">
-                  {{ $t('form_email_error') }}
-                </div>
-              </div>
-              <div>
-                <label for="">{{ $t('form_message') }}</label>
-                <textarea
-                  class="form-control mb-2"
-                  rows="3"
-                  :placeholder="$t('form_message_placeholder')"
-                  style="resize: none"
-                  name="message"
-                  required
-                ></textarea>
-                <div class="invalid-feedback mb-3">
-                  {{ $t('form_message_error') }}
-                </div>
-              </div>
-              <button
-                type="submit"
-                class="btn btn-outline-light btn-lg btn-dark w-100 mb-3"
-              >
-                {{ $t('form_button') }}
-              </button>
-              <p style="border-style:dotted; border-color:#28a745" align="center" v-if="successMessage">{{ successMessage }}</p>
-          </form>
-      </div>  
+                  <h4 class="text-center text-md-left text-lg-left text-xl-left">
+                    <span class="subtitle-bar">{{ $t('form_title') }}</span>
+                  </h4>
+                  <!--<div class="w-100">
+                    <h3 class="text-center text-md-left text-lg-left text-xl-left">
+                      {{ $t('form_title') }}
+                    </h3>
+                  </div>
+                  <div class="underscore"></div>-->
+                  <div>
+                    <label for="" class="mt-3">{{ $t('form_name') }}</label>
+                    <input
+                      type="text"
+                      class="form-control mb-2"
+                      :placeholder="$t('form_name_placeholder')"
+                      aria-label="Name"
+                      name="name"
+                      required
+                    />
+                    <div class="invalid-feedback">
+                      {{ $t('form_name_error') }}
+                    </div>
+                  </div>
+                  <div>
+                    <label for="">{{ $t('form_email') }}</label>
+                    <input
+                      type="email"
+                      class="form-control mb-2"
+                      :placeholder="$t('form_email_placeholder')"
+                      aria-label="Email"
+                      name="email"
+                      required
+                    />
+                    <div class="invalid-feedback">
+                      {{ $t('form_email_error') }}
+                    </div>
+                  </div>
+                  <div>
+                    <label for="">{{ $t('form_message') }}</label>
+                    <textarea
+                      class="form-control mb-2"
+                      rows="3"
+                      :placeholder="$t('form_message_placeholder')"
+                      style="resize: none"
+                      name="message"
+                      required
+                    ></textarea>
+                    <div class="invalid-feedback mb-3">
+                      {{ $t('form_message_error') }}
+                    </div>
+                  </div>
+                  <button
+                    type="submit"
+                    class="btn btn-outline-light btn-lg btn-dark w-100 mb-3"
+                  >
+                    {{ $t('form_button') }}
+                  </button>
+                  <p style="border-style:dotted; border-color:#28a745" align="center" v-if="successMessage">{{ successMessage }}</p>
+              </form>
+          </div> 
+
     </div>
     <!-- FOOTER -->
     <img class="w-100" src=/images/curve-footer.svg alt />

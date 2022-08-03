@@ -209,11 +209,15 @@ h3{
 }
 
 .floatWapp{
+  animation-name: "animation-wapp";
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+
   position: fixed;
   width: 60px;
   height: 60px;
   bottom: 20px;
-  /*right: 20px;*/
+  left: 20px;
   background-color: #25d366;
   color: #FFF;
   border-radius: 50px;
@@ -225,6 +229,27 @@ h3{
 
 .my-floatWapp{
   margin-top: 16px;
+}
+
+@keyframes animation-wapp {
+  from {
+    background-color: #2d2d2d;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    left: 20px;
+    font-size: 30px;
+ 
+  }
+  to {
+    background-color: #25d366;
+    width: 80px;
+    height: 80px;
+    bottom: 40px;
+    left: 40px;
+    font-size: 50px;
+ 
+  }
 }
 
 @media screen and (max-width:1400px) {
