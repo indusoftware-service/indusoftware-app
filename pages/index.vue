@@ -314,18 +314,18 @@
 
 
     <div class="d-flex justify-content-center align-self-center">
-      <div class="w-75">
+      <div class="w-auto">
         <div class="row d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row
           justify-content-center align-items-center my-7">
           <div class="container-fluid">
-            <div class="w-100 p-3">
+            <div class="w-100">
               <div class="div-form-main">
 
 
-                <div class="col-12 align-self-center col-lg-6 p-0">
+                <div class="col-12 align-self-center col-lg-6 p-12">
                       <!-- CLUTCH -->
                       <div>
-                          <div class="clutch-widget" data-nofollow="true" data-url="https://widget.clutch.co" data-widget-type="7" data-height="65" data-expandifr="true" data-clutchcompany-id="1257831"></div>
+                          <div class="clutch-widget" data-nofollow="true" data-url="https://widget.clutch.co" data-widget-type="7" data-height="60" data-expandifr="true" data-clutchcompany-id="1257831"></div>
                       </div>
                 </div>
 
