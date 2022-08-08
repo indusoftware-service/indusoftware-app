@@ -33,6 +33,7 @@ export default {
   */
   css: [
     { src: '~/static/index.css', lang: 'css' },
+    { src: 'animate.css/animate.css', lang: 'css'}
   ],
   /*
   ** Plugins to load before mounting the App

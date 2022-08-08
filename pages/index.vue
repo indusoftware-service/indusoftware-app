@@ -52,7 +52,7 @@
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
-
+    
     <main id="home" class="w-100 mt-5">
       <!-- BANNER -->
       <div class="d-flex justify-content-center align-self-center bg-darker">
@@ -411,7 +411,7 @@
                 CABA, Argentina (HQ)</span>
               <br />
               <span class="text-white" style="font-size: 0.9em;"
-                >Posadas, Misiones (DC)</span
+                >Posadas, Argentina (DC)</span
               ><br />
               <span class="text-white" style="font-size: 0.9em;"
                 >San Salvador de Jujuy, Argentina (DC)</span

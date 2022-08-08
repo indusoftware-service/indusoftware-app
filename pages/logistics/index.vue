@@ -362,7 +362,7 @@
               >
               <br />
               <span class="text-white" style="font-size: 0.9em"
-                >Posadas, Misiones (DC)</span
+                >Posadas, Argentina (DC)</span
               ><br />
               <span class="text-white" style="font-size: 0.9em"
                 >San Salvador de Jujuy, Argentina (DC)</span

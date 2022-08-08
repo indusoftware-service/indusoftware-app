@@ -35,10 +35,10 @@
   "form_email":"Your Email",
   "form_email_placeholder":"Email",
   "form_email_error":"Email field cannot be blank",
-  "form_menssage":"Leave a Message",
+  "form_message":"Leave a Message",
   "form_message_placeholder":"Enter your message",
   "form_message_error":"Message field cannot be blank",
   "form_button":"Send",
-  "success_message":"Mensaje enviado correctamente"
+  "success_message":"Message sent successfully"
 
   }
