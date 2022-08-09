@@ -349,7 +349,7 @@
                     <input
                       type="text"
                       class="form-control mb-2"
-                      :placeholder="form_name_placeholder"
+                      placeholder=""
                       aria-label="Name"
                       name="name"
                       required
@@ -363,7 +363,7 @@
                     <input
                       type="email"
                       class="form-control mb-2"
-                      :placeholder="form_email_placeholder"
+                      placeholder=""
                       aria-label="Email"
                       name="email"
                       required
@@ -377,7 +377,7 @@
                     <textarea
                       class="form-control mb-2"
                       rows="3"
-                      :placeholder="form_message_placeholder"
+                      placeholder=""
                       style="resize: none"
                       name="message"
                       required
@@ -548,6 +548,9 @@ export default {
       document.getElementById('btn-esp').classList.remove('btn-lang--active')
       document.getElementById('btn-eng').classList.toggle('btn-lang--active')
     }
+    document.getElementsByName('name')[0].placeholder=this.$t('form_name_placeholder')
+    document.getElementsByName('email')[0].placeholder=this.$t('form_email_placeholder')
+    document.getElementsByName('message')[0].placeholder=this.$t('form_message_placeholder')
   },
   data() {
     return {
