@@ -349,7 +349,7 @@
                     <input
                       type="text"
                       class="form-control mb-2"
-                      :placeholder="$t('form_name_placeholder')"
+                      v-bind:placeholder="$t('form_name_placeholder')"
                       aria-label="Name"
                       name="name"
                       required
@@ -363,7 +363,7 @@
                     <input
                       type="email"
                       class="form-control mb-2"
-                      :placeholder="$t('form_email_placeholder')"
+                      v-bind:placeholder="$t('form_email_placeholder')"
                       aria-label="Email"
                       name="email"
                       required
@@ -377,7 +377,7 @@
                     <textarea
                       class="form-control mb-2"
                       rows="3"
-                      :placeholder="$t('form_message_placeholder')"
+                      v-bind:placeholder="$t('form_message_placeholder')"
                       style="resize: none"
                       name="message"
                       required
