@@ -318,9 +318,9 @@
                               px-0 px-sm-1 px-md-2 px-lg-4 px-xl-4
                             "
                             target="_blank"
-                            href="https://www.evergreen-marine.com//"
+                            href="https://www.calicosa.com.ar/"
                             ><div class="img-container">
-                                <img class="img-client" src="~/assets/calico-white.png" alt="">
+                                <img class="img-client2" src="~/assets/calico-white.png" alt="">
                                 </div
                           ></a>
                            <a
@@ -330,9 +330,9 @@
                               px-0 px-sm-1 px-md-2 px-lg-4 px-xl-4
                             "
                             target="_blank"
-                            href="https://www.evergreen-marine.com/"
+                            href="https://heinlein.com.ar/"
                             ><div class="img-container">
-                                <img class="img-client" src="~/assets/maritima-white.png" alt="">
+                                <img class="img-client3" src="~/assets/maritima-white.png" alt="">
                                 </div
                           ></a>
                                                      <a
@@ -344,7 +344,7 @@
                             target="_blank"
                             href="https://www.vi-datec.com/"
                             ><div class="img-container">
-                                <img class="img-client2" src="~/assets/vidatec_white.png" alt="">
+                                <img class="img-client12" src="~/assets/vidatec_white.png" alt="">
                                 </div
                           ></a>
                           </a>
@@ -355,7 +355,7 @@
                               px-0 px-sm-1 px-md-2 px-lg-4 px-xl-4
                             "
                             target="_blank"
-                            href="https://www.vi-datec.com/"
+                            href="https://www.bp-4.com/"
                             ><div class="img-container">
                                 <img class="img-client3" src="~/assets/bp4_white.png" alt="">
                                 </div
