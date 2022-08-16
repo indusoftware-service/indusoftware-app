@@ -208,6 +208,10 @@ h3{
   flex-wrap: wrap;
 }
 
+.test1{
+  gap:40px
+}
+
 .floatWapp{
   animation-name: "animation-wapp";
   animation-duration: 2s;

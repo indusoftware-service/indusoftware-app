@@ -314,15 +314,16 @@
     
         <hr class="mx-auto" style="width:50%; height:1px; background-color:#C6D936; margin-bottom:60px">    
 
-    <div class="container-fluid d-flex flex-wrap justify-content-around mt-4">
+    <div class="test1 container-fluid d-flex flex-column flex-md-row ">
          
-          <div class="align-self-center ml-0 mr-0 ml-sm-4 mr-sm-4">
+          <div class="d-flex flex-fill flex-column justify-content-center ml-md-5 ml-0">
             <!-- CLUTCH -->
-            <div>
-                <div class="clutch-widget" data-nofollow="true" data-url="https://widget.clutch.co" data-widget-type="7" data-height="60" data-expandifr="true" data-clutchcompany-id="1257831"></div>
-            </div>
+            <div class="clutch-widget" data-nofollow="true" data-url="https://widget.clutch.co" data-widget-type="4" data-height="200" data-reviews="1998334" data-expandifr="true" data-clutchcompany-id="1257831"></div>
+            <div class="clutch-widget align-self-center" data-nofollow="true" data-url="https://widget.clutch.co" data-widget-type="7" data-height="60" data-expandifr="true" data-clutchcompany-id="1257831"></div>
           </div>
-          <div class="ml-0 mr-0 ml-sm-4 mr-sm-4" >
+
+          
+          <div class="mr-md-5 mr-0" >
             <form
                   name="contact_form"
                   data-netlify="true"
