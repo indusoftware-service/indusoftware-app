@@ -21,6 +21,11 @@ export default function ({ isHMR, app, store, route, params, req, error, redirec
       }
       store.commit('SET_LANG', locale)
       app.i18n.locale = store.state.locale
+
+      console.log(route.fullPath)
+      if(route.fullPath='/' && locale==='en' ) {
+        return redirect('/'+"?lang="+app.i18n.locale)
+      }
     }
   }
 }
