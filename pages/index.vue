@@ -542,13 +542,10 @@
 
 <script>
 export default {
-  middleware({store}){
-    console.log('anon middleware.....')
-    console.log(store)
-  },
   mounted() {
-    console.log('fullpath....')
-    console.log(this.$route.fullPath)
+    if(this.$route.fullPath=='/' && this.$cookies.get('locale')==='en' ) {
+      this.$router.push('/'+"?lang="+this.$cookies.get('locale'))
+    }
     if (this.$cookies.get('locale') === undefined || this.$cookies.get('locale') === 'es') {
       document.getElementById('btn-esp').classList.toggle('btn-lang--active')
     } else {
