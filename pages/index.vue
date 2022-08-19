@@ -542,6 +542,10 @@
 
 <script>
 export default {
+  middleware({store}){
+    console.log('anon middleware.....')
+    console.log(store)
+  },
   mounted() {
     if (this.$cookies.get('locale') === undefined || this.$cookies.get('locale') === 'es') {
       document.getElementById('btn-esp').classList.toggle('btn-lang--active')
