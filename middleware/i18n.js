@@ -1,4 +1,6 @@
 export default function ({ isHMR, app, store, route, params, req, error, redirect }) {
+
+  console.log("middleware....")
   if (isHMR) { // ignore if called from hot module replacement
     return
   }
