@@ -547,6 +547,8 @@ export default {
     console.log(store)
   },
   mounted() {
+    console.log('fullpath....')
+    console.log(this.$route.fullPath)
     if (this.$cookies.get('locale') === undefined || this.$cookies.get('locale') === 'es') {
       document.getElementById('btn-esp').classList.toggle('btn-lang--active')
     } else {
